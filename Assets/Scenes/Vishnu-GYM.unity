@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 467053737}
   - component: {fileID: 467053736}
   - component: {fileID: 467053738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BaseBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,6 +422,10 @@ MonoBehaviour:
   _leftEndPivotPoint: {fileID: 1943841719}
   _movingTarget: {fileID: 823117682}
   _matchingTarget: {fileID: 895062088}
+  _smallerBarSpeed: 1.5
+  _biggerBarSpeed: 2
+  _toMatchThreshold: 2.5
+  _playerInput: {fileID: 884001058}
 --- !u!1 &505900590
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584480644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEndPivot
   m_TagString: Untagged
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
@@ -547,7 +551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 823117684}
   - component: {fileID: 823117683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +598,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.990566, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -767,6 +771,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4965ceb12041d4518a18e3481b7fafef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &884001058 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6259046520675510811, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+  m_PrefabInstance: {fileID: 6259046521005859641}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &895062088
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 895062089}
   - component: {fileID: 895062090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MatchingTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1943841719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEndPivot
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
