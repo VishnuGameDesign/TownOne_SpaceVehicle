@@ -66,11 +66,11 @@ public class Player : MonoBehaviour
         Rigidbody.velocity = new Vector2(_moveDirection.x * _moveSpeed, _moveDirection.y * _moveSpeed);
     }
 
-    private void OnInteract()
+    private void OnInteract(InputValue value)
     {
         var nearestGameObject = GetNearestObject();
         var interactable = nearestGameObject?.GetComponent<IInteractable>();
-        interactable?.Interact();
+        interactable?.Interact(value);
     }
     
     private GameObject GetNearestObject()
