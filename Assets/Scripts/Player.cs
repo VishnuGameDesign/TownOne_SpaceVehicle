@@ -1,8 +1,8 @@
 using System.Collections;
 using DefaultNamespace;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
-
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -18,10 +18,12 @@ public class Player : MonoBehaviour
     [SerializeField] private float _dashCoolDown = 3f;
     [SerializeField] private float _interactableObjectRadius = 10f;
     
+    public UnityEvent OnPaused;
+    
     private Vector2 _moveDirection;
     private bool _isDashing;
     private IInteractable _interactableObject;
-
+    
     private void OnValidate()
     {
         if(Rigidbody == null) Rigidbody = GetComponent<Rigidbody2D>();
@@ -63,14 +65,37 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        Rigidbody.velocity = new Vector2(_moveDirection.x * _moveSpeed, _moveDirection.y * _moveSpeed);
+        // isometric movement
+        // Rigidbody.velocity = new Vector3(_moveDirection.x - _moveDirection.y, (_moveDirection.x + _moveDirection.y) / 2, 0) * (_moveSpeed * Time.fixedDeltaTime);
+        
+        // normal 
+        Rigidbody.velocity = new Vector3(_moveDirection.x * _moveSpeed, _moveDirection.y * _moveSpeed) * Time.fixedDeltaTime;
     }
 
-    private void OnInteract()
+    private void OnInteract(InputValue value)
     {
         var nearestGameObject = GetNearestObject();
         var interactable = nearestGameObject?.GetComponent<IInteractable>();
-        interactable?.Interact();
+        interactable?.Interact(value);
+    }
+
+    private void OnPause(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        OnPaused?.Invoke();
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
     }
     
     private GameObject GetNearestObject()
@@ -78,4 +103,5 @@ public class Player : MonoBehaviour
         var nearestInteractable = Physics2D.OverlapCircle(transform.position, _interactableObjectRadius, LayerMask.GetMask("Interactable"));
         return nearestInteractable == null ? null : nearestInteractable.gameObject;
     }
+     
 }

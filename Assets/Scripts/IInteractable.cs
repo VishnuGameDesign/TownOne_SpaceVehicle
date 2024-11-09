@@ -1,7 +1,9 @@
+using UnityEngine.InputSystem;
+
 namespace DefaultNamespace
 {
     public interface IInteractable
     {
-        void Interact();
+        void Interact(InputValue value);
     }
 }
