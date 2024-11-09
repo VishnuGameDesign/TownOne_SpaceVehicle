@@ -1,4 +1,3 @@
-using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -38,7 +37,6 @@ public class RepairMiniGame : MonoBehaviour
         _movingTarget.transform.position = Vector3.Lerp(_leftEndPivotPoint.position, _rightEndPivotPoint.position, pingPongForSmallBar / distance);
         _matchingTarget.transform.position = Vector3.Lerp(_rightEndPivotPoint.position, _leftEndPivotPoint.position, pingPongForBigBar / distance);
     }
-
     
     private bool TargetsMatched()
     {
