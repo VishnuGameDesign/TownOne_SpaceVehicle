@@ -8,7 +8,8 @@ public class PickupItem : MonoBehaviour, IInteractable
     [SerializeField] private Player _player;
     [SerializeField] private Transform _pickUpPoint;
     public int toolId;
-    
+    public Sprite default_sprite;
+    public Sprite hovered_sprite;
     private bool _pickedUpItem;
     
     public void Interact(InputValue value)

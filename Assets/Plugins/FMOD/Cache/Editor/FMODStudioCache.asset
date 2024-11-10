@@ -1502,7 +1502,7 @@ MonoBehaviour:
   - {fileID: 818979850367756266}
   StringsBanks:
   - {fileID: 3642372157835862778}
-  cacheTime: 638668488188622134
+  cacheTime: 638668491105839999
   cacheVersion: 131620
 --- !u!114 &206936378262804366
 MonoBehaviour:
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   Path: Animalese_AudioStaging/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638668488188622134
+  lastModified: 638668491105839999
   FileSizes:
   - Name: Desktop
     Value: 1684544
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   Path: Animalese_AudioStaging/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638668488188622134
+  lastModified: 638668491105839999
   FileSizes:
   - Name: Desktop
     Value: 4142
