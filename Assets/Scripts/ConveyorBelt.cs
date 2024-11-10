@@ -18,6 +18,26 @@ public class ConveyorBelt : MonoBehaviour
         InvokeRepeating("AdvanceBelt", 0.0f, BeltTiming);
     }
 
+    GameObject NextVehicle() {
+        GameObject vehicle;
+        if (AllVehicles.Count < NumVehicles) {
+            // add a new vehicle until we have NumVehicles of them
+            vehicle = Object.Instantiate(AllVehicles[0], this.transform.position, Quaternion.identity);
+
+        } else {
+            // The last one moves back to the start
+            vehicle = AllVehicles[0];
+            AllVehicles.RemoveAt(0);
+        }
+        // roll a new GFX type for this vehicle
+        vehicle.GetComponent<SpaceVehicle>().VehicleGFX = Random.Range(0,2);
+        vehicle.GetComponent<SpaceVehicle>().Fixed = false;
+
+        vehicle.transform.position = this.transform.position;
+
+        return vehicle;
+    }
+
     void AdvanceBelt()
     {
         switch(state) {
@@ -40,20 +60,7 @@ public class ConveyorBelt : MonoBehaviour
 
             case 4: // snap back and reset
                 BeltSpeed = 0f;
-
-                if (AllVehicles.Count < NumVehicles) {
-                    // add a new vehicle until we have NumVehicles of them
-                    GameObject clone = Object.Instantiate(AllVehicles[0], this.transform.position, Quaternion.identity);
-                    clone.GetComponent<SpaceVehicle>().Fixed = false;
-                    // clone.GetComponent<SpaceVehicle>().ApplyTool(1); // for example - should fail and flash the zot
-                    AllVehicles.Add(clone);
-                } else {
-                    // The last one moves back to the start
-                    GameObject endVehicle = AllVehicles[0];
-                    AllVehicles.RemoveAt(0);
-                    endVehicle.transform.position = this.transform.position;
-                    AllVehicles.Add(endVehicle);
-                }
+                AllVehicles.Add(NextVehicle());
 
                 state = 0;
                 break;
