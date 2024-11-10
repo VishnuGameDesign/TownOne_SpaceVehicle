@@ -304,5 +304,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventParentPath: event:/AnimaleseBase/
   m_PlaybackTimeBetweenLetters: 0.25
-  m_PlaybackPitch: 2
+  m_PlaybackPitch: 3
   m_ShouldLoopPlayback: 0
