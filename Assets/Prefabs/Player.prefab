@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6259046520675510808}
   - component: {fileID: 1267215037323847108}
   - component: {fileID: 2044536566}
+  - component: {fileID: 3824640638169176472}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -129,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 2.23}
+    oldSize: {x: 0.6796875, y: 0.8671875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -183,7 +184,7 @@ MonoBehaviour:
   <Rigidbody>k__BackingField: {fileID: 6259046520675510813}
   <BoxCollider>k__BackingField: {fileID: 6259046520675510810}
   <PlayerInput>k__BackingField: {fileID: 6259046520675510811}
-  <Animator>k__BackingField: {fileID: 0}
+  <Animator>k__BackingField: {fileID: 3824640638169176472}
   <AudioSource>k__BackingField: {fileID: 1267215037323847108}
   _moveSpeed: 300
   _dashSpeed: 20
@@ -413,6 +414,26 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 0
+--- !u!95 &3824640638169176472
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259046520675510823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7e36e441bc173da4ba1dad8ac5f8f12, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6259046522275192743
 GameObject:
   m_ObjectHideFlags: 0
