@@ -19,6 +19,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
+        AnimaleseSpeaker speaker = GetComponent<AnimaleseSpeaker>();
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
@@ -27,6 +28,9 @@ public class NPC : MonoBehaviour
             }
             else
             {
+                speaker.SetTextToSpeak(dialogue[index]);
+                speaker.SetPlaybackTimeBetweenLetters(wordSpeed);
+                speaker.StartPlayback();
                 dialoguePanel.SetActive(true);
                 typingCoroutine = StartCoroutine(Typing());
             }
@@ -35,6 +39,7 @@ public class NPC : MonoBehaviour
         if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
+            speaker.StopPlayback();
         }
     }
 
@@ -102,5 +107,7 @@ public class NPC : MonoBehaviour
                 eHoverIcon.SetActive(false);
             }
         }
+        AnimaleseSpeaker speaker = GetComponent<AnimaleseSpeaker>();
+        speaker.StopPlayback();
     }
 }

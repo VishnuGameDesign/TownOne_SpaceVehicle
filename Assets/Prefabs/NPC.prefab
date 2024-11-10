@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 614880442860034967}
   - component: {fileID: 614880442860034965}
   - component: {fileID: 4323455502890952184}
+  - component: {fileID: 2193430917247609577}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -274,3 +275,19 @@ MonoBehaviour:
   target_position: {x: 0, y: 0}
   current_state: 
   walk_speed: 5
+--- !u!114 &2193430917247609577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557576012438516390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0216fcb99ebd8cb47911a2b0a377410b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventParentPath: event:/AnimaleseBase/
+  m_PlaybackTimeBetweenLetters: 0.25
+  m_PlaybackPitch: 2
+  m_ShouldLoopPlayback: 0
