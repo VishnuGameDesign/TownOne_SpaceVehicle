@@ -22,6 +22,10 @@ public class Player : MonoBehaviour
     
     [SerializeField] private SpaceVehicle _spaceVehicle;
     
+    [SerializeField] private ToolInfo _currentTool;
+
+    [SerializeField] private TrailRenderer tr;
+    
     public AudioClip mainTheme;
     public AudioClip pauseTheme;
 
@@ -72,7 +76,9 @@ public class Player : MonoBehaviour
     {
         _isDashing = true;
         Rigidbody.velocity = new Vector2(_moveDirection.x * _dashSpeed, _moveDirection.y * _dashSpeed);
+        tr.emitting = true;
         yield return new WaitForSeconds(_dashCoolDown);
+        tr.emitting = false;
         _isDashing = false;
     }
 
