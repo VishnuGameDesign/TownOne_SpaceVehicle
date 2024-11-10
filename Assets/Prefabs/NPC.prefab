@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 614880442860034967}
   - component: {fileID: 614880442860034965}
   - component: {fileID: 4323455502890952184}
+  - component: {fileID: 546697766333212486}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -190,7 +191,7 @@ MonoBehaviour:
   dialogueText: {fileID: 0}
   dialogue:
   - New Text
-  wordSpeed: 0.2
+  wordSpeed: 0.05
   playerIsClose: 0
   contButton: {fileID: 0}
   eHoverIcon: {fileID: 614880443751266659}
@@ -274,3 +275,17 @@ MonoBehaviour:
   target_position: {x: 0, y: 0}
   current_state: 
   walk_speed: 5
+--- !u!114 &546697766333212486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557576012438516390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d45dced87b06c54cb3e81ca6edd1097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceAmplitude: 0.001
+  bounceFrequency: 2
