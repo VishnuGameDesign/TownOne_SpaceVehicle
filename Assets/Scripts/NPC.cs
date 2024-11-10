@@ -53,7 +53,6 @@ public class NPC : MonoBehaviour
 
         if (dialogueText.text == dialogue[index])
         {
-            contButton.SetActive(true);
             speaker.StopPlayback();
         }
     }
