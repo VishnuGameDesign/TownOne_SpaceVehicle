@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
@@ -498,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
@@ -634,7 +634,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
@@ -832,7 +832,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.02, y: 4.29}
+    oldSize: {x: 4.79, y: 4.27}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -885,7 +885,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0eb848e2ebbc5dd42ba7227b5feab700, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e06ae1bfe76a53c42bf6c971180e9346, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1770,7 +1770,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
@@ -2602,11 +2602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &279126895619405687 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 196037579872530008, guid: c9d715dec99ed56448eeed35adf162df, type: 3}
-  m_PrefabInstance: {fileID: 101295039019948335}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &614880442908952735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2625,7 +2620,7 @@ PrefabInstance:
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
-      objectReference: {fileID: 279126895619405687}
+      objectReference: {fileID: 0}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: dialogueText
       value: 
