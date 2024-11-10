@@ -34,6 +34,8 @@ public class Player : MonoBehaviour
     private IInteractable _interactableObject;
     
     
+    
+    
     private void OnValidate()
     {
         if(Rigidbody == null) Rigidbody = GetComponent<Rigidbody2D>();
@@ -94,7 +96,7 @@ public class Player : MonoBehaviour
 
     private void OnInteract(InputValue value)
     {
-        var nearestGameObject = GetNearestObject();
+        var nearestGameObject = GetNearestInteractableObject();
         var interactable = nearestGameObject?.GetComponent<IInteractable>();
         interactable?.Interact(value);
         
@@ -114,8 +116,17 @@ public class Player : MonoBehaviour
 
     private void OnRepair(InputValue value)
     {
-        //repair vehicle
-        _spaceVehicle.ApplyTool(_currentTool.toolId);
+        
+            // Repair nearest vehicle if it's interactable
+            var nearestRepairObject = GetNearestRepairObject();
+            if (nearestRepairObject != null && value.isPressed)
+            {
+                SpaceVehicle spaceVehicle = nearestRepairObject.GetComponent<SpaceVehicle>();
+                if (spaceVehicle != null && !spaceVehicle.Fixed)
+                {
+                    spaceVehicle.ApplyTool(_currentTool.toolId); 
+                }
+            }
     }
 
     public void PauseGame()
@@ -133,10 +144,16 @@ public class Player : MonoBehaviour
         }
     }
     
-    private GameObject GetNearestObject()
+    private GameObject GetNearestInteractableObject()
     {
         var nearestInteractable = Physics2D.OverlapCircle(transform.position, _interactableObjectRadius, LayerMask.GetMask("Interactable"));
         return nearestInteractable == null ? null : nearestInteractable.gameObject;
     }
-     
+    
+    private GameObject GetNearestRepairObject()
+    {
+        var nearestRepairable = Physics2D.OverlapCircle(transform.position, _interactableObjectRadius, LayerMask.GetMask("Repairable"));
+        return nearestRepairable == null ? null : nearestRepairable.gameObject;
+    }
+    
 }
