@@ -23,6 +23,10 @@ public class Prompt : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (!other.gameObject.name.Equals("Player")) {
+            return;
+        }
+
         Debug.Log("Prompt entered");
         if (text != "") {
             textmesh.text = text;
@@ -33,6 +37,9 @@ public class Prompt : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
+        if (!other.gameObject.name.Equals("Player")) {
+            return;
+        }
         in_prompt = false;
     }
 

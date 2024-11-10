@@ -11,6 +11,7 @@ public class SpaceVehicle : MonoBehaviour
     public GameObject _repairedVehicle;
     
     public void ApplyTool(int i) {
+        Debug.Log(i);
         if (!Fixed &&  i == ToolRequired) {
             Debug.Log("Player fixed vehicle");
             Fixed = true;

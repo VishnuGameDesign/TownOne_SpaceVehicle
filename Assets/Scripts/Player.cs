@@ -12,17 +12,20 @@ public class Player : MonoBehaviour
     [field: SerializeField] private Rigidbody2D Rigidbody { get; set; }
     [field: SerializeField] private BoxCollider2D BoxCollider { get; set; }
     [field: SerializeField] private PlayerInput PlayerInput { get; set; }
-
+    [field: SerializeField] private Animator Animator { get; set; }
     [field: SerializeField] private AudioSource AudioSource { get; set; }
 
     [SerializeField] private float _moveSpeed = 5f;
     [SerializeField] private float _dashSpeed = 2f;
     [SerializeField] private float _dashCoolDown = 3f;
     [SerializeField] private float _interactableObjectRadius = 10f;
+
     
     [SerializeField] private SpaceVehicle _spaceVehicle;
     
     [SerializeField] private ToolInfo _currentTool;
+
+    [SerializeField] private TrailRenderer tr;
     
     public AudioClip mainTheme;
     public AudioClip pauseTheme;
@@ -42,7 +45,7 @@ public class Player : MonoBehaviour
         if(BoxCollider == null) Rigidbody = GetComponent<Rigidbody2D>();
         if(PlayerInput == null) PlayerInput = GetComponent<PlayerInput>();
         if(AudioSource == null) AudioSource = GetComponent<AudioSource>();
-
+        if(Animator == null) Animator = GetComponent<Animator>();
     }
 
     private void Awake()
@@ -74,13 +77,16 @@ public class Player : MonoBehaviour
     {
         _isDashing = true;
         Rigidbody.velocity = new Vector2(_moveDirection.x * _dashSpeed, _moveDirection.y * _dashSpeed);
+        tr.emitting = true;
         yield return new WaitForSeconds(_dashCoolDown);
+        tr.emitting = false;
         _isDashing = false;
     }
 
     private void FixedUpdate()
     {
         if (_isDashing) return;
+        Animator.SetBool ("IsWalking", _moveDirection.x != 0 || _moveDirection.y != 0);
         Move();
     }
 
@@ -119,12 +125,16 @@ public class Player : MonoBehaviour
         
             // Repair nearest vehicle if it's interactable
             var nearestRepairObject = GetNearestRepairObject();
+            var nearestInteractableObject = GetNearestInteractableObject();
             if (nearestRepairObject != null && value.isPressed)
             {
+                Debug.Log("repairing");
                 SpaceVehicle spaceVehicle = nearestRepairObject.GetComponent<SpaceVehicle>();
-                if (spaceVehicle != null && !spaceVehicle.Fixed)
+                PickupItem pickupItem = nearestInteractableObject.GetComponent<PickupItem>();
+                if (spaceVehicle && pickupItem!= null && !spaceVehicle.Fixed)
                 {
-                    spaceVehicle.ApplyTool(_currentTool.toolId); 
+                    spaceVehicle.ApplyTool(pickupItem.toolId); 
+                    Debug.Log(pickupItem.toolId);
                 }
             }
     }
