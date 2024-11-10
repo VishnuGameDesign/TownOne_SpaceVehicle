@@ -31,7 +31,7 @@ public class NPCManager : MonoBehaviour
             }
             npcs[i].SetActive(false);
         }
-        current_npc_index = 1;
+        current_npc_index = 0;
         current_npc_position_index = 0;
         number_visible = 0;
     }
@@ -47,8 +47,6 @@ public class NPCManager : MonoBehaviour
                 if (current_npc.GetComponent<NPCMovement>().current_state == "inactive")
                 {
                     current_npc.transform.position = spawn_points[UnityEngine.Random.Range(0, spawn_points.Length)];
-                    print(current_npc_index);
-                    print(current_npc_position_index);
                     current_npc.GetComponent<NPCMovement>().start_position = current_npc.transform.position;
                     current_npc.GetComponent<NPCMovement>().target_position = npc_positions[current_npc_position_index];
                     current_npc.GetComponent<NPCMovement>().current_state = "entering";
