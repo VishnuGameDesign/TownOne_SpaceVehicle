@@ -1,8 +1,8 @@
 using System.Collections;
+using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Image = UnityEngine.UI.Image;
 
 public class RepairMiniGame : MonoBehaviour, IInteractable
 {
@@ -14,13 +14,23 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
     [SerializeField] private float _smallerBarSpeed = 1.5f;
     [SerializeField] private float _biggerBarSpeed = 2f;
     [SerializeField] private float _toMatchThreshold = .1f;
-    [SerializeField] private GameObject _image;
+    [SerializeField] private List<GameObject> _toolImages;
+    public Dictionary<int, GameObject> _toolImageIds = new Dictionary<int, GameObject>();
+    
+    
+    [SerializeField] private SpaceVehicle _spaceVehicle;
     
     private bool _isMoving;
 
-    private void OnValidate()
+    private void Awake()
     {
-        _image.SetActive(false);
+        for (int i = 0; i < _toolImages.Count; i++)
+        {
+            _toolImageIds.Add(i, _toolImages[i]);
+            Debug.Log(_toolImageIds[i]);
+            _toolImageIds[i].gameObject.SetActive(false);
+            
+        }
     }
 
     private void Start()
@@ -51,9 +61,15 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
         if (distance <= _toMatchThreshold)
         {
             _isMoving = false;
-            Debug.Log("Spawn Weapon");
+            Debug.Log("Spawn Tool");
             StopCoroutine(MoveTarget());
-            _image.SetActive(true);
+            
+            int randomToolIndex = Random.Range(0, _toolImages.Count);
+            _toolImages[randomToolIndex].SetActive(true);
+            
+            _spaceVehicle.ApplyTool(randomToolIndex);
+            Debug.Log(randomToolIndex);
+                
             Invoke(nameof(DisableImage), 2f);
         }
         else
@@ -78,6 +94,9 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
 
     private void DisableImage()
     {
-        _image.SetActive(false);
+        foreach (var tools in _toolImages)
+        {
+            tools.SetActive(false);
+        }
     }
 }
