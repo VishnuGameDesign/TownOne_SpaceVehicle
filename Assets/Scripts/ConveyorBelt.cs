@@ -21,7 +21,6 @@ public class ConveyorBelt : MonoBehaviour
 
     void AdvanceBelt()
     {
-        Debug.Log(state);
         switch(state) {
             case 0: // not moving
                 BeltSpeed = 0f;
