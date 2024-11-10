@@ -7,6 +7,7 @@ public class SpaceVehicle : MonoBehaviour
     public bool Fixed = false;
     public float ZotFlashTime = 0.5f;
     public int ToolRequired = 2;
+    public Color FixedColor;
 
     public GameObject zot;
 
@@ -31,9 +32,9 @@ public class SpaceVehicle : MonoBehaviour
     void Update()
     {
         if(Fixed) {
-            GetComponent<Renderer>().material.color = Color.white;
+            GetComponent<Renderer>().material.color = FixedColor;
         } else {
-            GetComponent<Renderer>().material.color = Color.red;
+            GetComponent<Renderer>().material.color = Color.white;
         }
     }
 }

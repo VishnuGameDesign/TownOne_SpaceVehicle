@@ -27,7 +27,7 @@ public class CameraFollow : MonoBehaviour
         cameraRatio = (xMax + camOrthsize) / 2.0f;
     }
     
-    void FixedUpdate()
+    void Update()
     {
         camY = Mathf.Clamp(followTransform.position.y, yMin + camOrthsize, yMax - camOrthsize);
         camX = Mathf.Clamp(followTransform.position.x, xMin + cameraRatio, xMax - cameraRatio);
