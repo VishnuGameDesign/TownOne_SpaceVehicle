@@ -362,7 +362,7 @@ PrefabInstance:
     - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: _currentTool
       value: 
-      objectReference: {fileID: 1403735803}
+      objectReference: {fileID: 0}
     - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: _spaceVehicle
       value: 
@@ -1309,7 +1309,6 @@ GameObject:
   - component: {fileID: 1403735801}
   - component: {fileID: 1403735800}
   - component: {fileID: 1403735799}
-  - component: {fileID: 1403735803}
   m_Layer: 6
   m_Name: tool02-screwdiver
   m_TagString: Untagged
@@ -1331,6 +1330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 316946822}
   _pickUpPoint: {fileID: 316946820}
+  toolId: 2
 --- !u!61 &1403735800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1424,19 +1424,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1403735803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403735798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5981db0045484fc6864b90dc4b1178dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toolId: 2
 --- !u!1 &1411268303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1436,6 @@ GameObject:
   - component: {fileID: 1411268306}
   - component: {fileID: 1411268305}
   - component: {fileID: 1411268304}
-  - component: {fileID: 1411268308}
   m_Layer: 6
   m_Name: tool03-hammer
   m_TagString: Untagged
@@ -1471,6 +1457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 316946822}
   _pickUpPoint: {fileID: 316946820}
+  toolId: 3
 --- !u!61 &1411268305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1564,19 +1551,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1411268308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411268303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5981db0045484fc6864b90dc4b1178dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toolId: 3
 --- !u!1 &1526868276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,7 +1563,6 @@ GameObject:
   - component: {fileID: 1526868279}
   - component: {fileID: 1526868278}
   - component: {fileID: 1526868277}
-  - component: {fileID: 1526868281}
   m_Layer: 6
   m_Name: tool01-wrench
   m_TagString: Untagged
@@ -1611,6 +1584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 316946822}
   _pickUpPoint: {fileID: 316946820}
+  toolId: 1
 --- !u!61 &1526868278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1704,19 +1678,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1526868281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526868276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5981db0045484fc6864b90dc4b1178dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toolId: 1
 --- !u!1001 &1549422985
 PrefabInstance:
   m_ObjectHideFlags: 0

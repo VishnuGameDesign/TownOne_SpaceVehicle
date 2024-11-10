@@ -7,8 +7,10 @@ public class PickupItem : MonoBehaviour, IInteractable
 {
     [SerializeField] private Player _player;
     [SerializeField] private Transform _pickUpPoint;
+    public int toolId;
+    
     private bool _pickedUpItem;
-
+    
     public void Interact(InputValue value)
     {
         if(_player== null) return;
@@ -23,6 +25,7 @@ public class PickupItem : MonoBehaviour, IInteractable
         transform.SetParent(_player.transform);
         transform.position = _pickUpPoint.position;
         _pickedUpItem = true;
+        Debug.Log($"{_pickedUpItem}, {toolId}");
     }
 
     private void DropItem()

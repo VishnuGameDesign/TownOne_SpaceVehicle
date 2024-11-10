@@ -22,8 +22,6 @@ public class Player : MonoBehaviour
     
     [SerializeField] private SpaceVehicle _spaceVehicle;
     
-    [SerializeField] private ToolInfo _currentTool;
-    
     public AudioClip mainTheme;
     public AudioClip pauseTheme;
 
@@ -119,12 +117,16 @@ public class Player : MonoBehaviour
         
             // Repair nearest vehicle if it's interactable
             var nearestRepairObject = GetNearestRepairObject();
+            var nearestInteractableObject = GetNearestInteractableObject();
             if (nearestRepairObject != null && value.isPressed)
             {
+                Debug.Log("repairing");
                 SpaceVehicle spaceVehicle = nearestRepairObject.GetComponent<SpaceVehicle>();
-                if (spaceVehicle != null && !spaceVehicle.Fixed)
+                PickupItem pickupItem = nearestInteractableObject.GetComponent<PickupItem>();
+                if (spaceVehicle && pickupItem!= null && !spaceVehicle.Fixed)
                 {
-                    spaceVehicle.ApplyTool(_currentTool.toolId); 
+                    spaceVehicle.ApplyTool(pickupItem.toolId); 
+                    Debug.Log(pickupItem.toolId);
                 }
             }
     }
