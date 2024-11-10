@@ -7,6 +7,9 @@ public class SpaceVehicle : MonoBehaviour
     public bool Fixed = false;
     public float ZotFlashTime = 0.5f;
     public int ToolRequired = 2;
+    public int VehicleGFX = 1;
+
+    public Sprite[] gfx;
 
     public GameObject _repairedVehicle;
     
@@ -39,9 +42,10 @@ public class SpaceVehicle : MonoBehaviour
 
     void Update()
     {
+        GetComponent<SpriteRenderer>().sprite = gfx[VehicleGFX];
         if(Fixed) {
             GetComponent<SpriteRenderer>().enabled = false;
-                _repairedVehicle.SetActive(true);
+            _repairedVehicle.SetActive(true);
         }
     }
 }

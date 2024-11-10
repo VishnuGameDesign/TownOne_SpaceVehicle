@@ -943,6 +943,10 @@ MonoBehaviour:
   Fixed: 0
   ZotFlashTime: 0.5
   ToolRequired: 2
+  VehicleGFX: 1
+  gfx:
+  - {fileID: 21300000, guid: 1cc8ee16e002b4113b030e12e4dc5751, type: 3}
+  - {fileID: 21300000, guid: e06ae1bfe76a53c42bf6c971180e9346, type: 3}
   _repairedVehicle: {fileID: 0}
 --- !u!1 &849250193
 GameObject:
@@ -1433,8 +1437,6 @@ GameObject:
   - component: {fileID: 1336140171}
   - component: {fileID: 1336140170}
   - component: {fileID: 1336140172}
-  - component: {fileID: 1336140174}
-  - component: {fileID: 1336140173}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1549,6 +1551,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &1407807210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2049,6 +2053,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &1746746000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2434,6 +2440,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &2115439586
 BoxCollider2D:
   m_ObjectHideFlags: 0
