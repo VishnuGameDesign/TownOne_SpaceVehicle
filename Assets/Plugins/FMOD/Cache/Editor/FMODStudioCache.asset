@@ -1,1086 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9158737168370102809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/Q
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/Q
-  Guid:
-    Data1: -2000639451
-    Data2: 1119667822
-    Data3: 1736403090
-    Data4: 232870496
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 750
---- !u!114 &-9128632492696286944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/C
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/C
-  Guid:
-    Data1: 2073150403
-    Data2: 1286274814
-    Data3: -2140944750
-    Data4: -1832433136
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-8928873646400848014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/M
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/M
-  Guid:
-    Data1: 519904237
-    Data2: 1317792027
-    Data3: 463157675
-    Data4: -1344043848
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-8901486419015942859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/G
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/G
-  Guid:
-    Data1: 2075072697
-    Data2: 1108256868
-    Data3: 599480985
-    Data4: 1030950373
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-8893503180281401026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/C
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/C
-  Guid:
-    Data1: -1444179392
-    Data2: 1280169087
-    Data3: 824177799
-    Data4: 408516524
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 375
---- !u!114 &-8160509753431592144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/E
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/E
-  Guid:
-    Data1: 529161596
-    Data2: 1084617201
-    Data3: 274729856
-    Data4: 919547730
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 651
---- !u!114 &-7968386897510758975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/A
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/A
-  Guid:
-    Data1: -1898405979
-    Data2: 1078471670
-    Data3: -1796391766
-    Data4: -185530629
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-7827876785895551196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/X
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/X
-  Guid:
-    Data1: 113426871
-    Data2: 1166443023
-    Data3: -165689428
-    Data4: -442883859
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-7542118701522972215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/U
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/U
-  Guid:
-    Data1: -2015534210
-    Data2: 1305894613
-    Data3: -1304791887
-    Data4: -824308485
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-7503657741667868727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/H
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/H
-  Guid:
-    Data1: 586687184
-    Data2: 1091872933
-    Data3: 1089599409
-    Data4: 1705985794
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-7456345869402130921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/Z
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/Z
-  Guid:
-    Data1: 103910435
-    Data2: 1149726600
-    Data3: 1689500323
-    Data4: -1248022974
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-7282056245411780357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/P
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/P
-  Guid:
-    Data1: -1730421003
-    Data2: 1244243443
-    Data3: -101740904
-    Data4: 2064433095
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-6960186933353775851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/I
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/I
-  Guid:
-    Data1: 2128802877
-    Data2: 1200314279
-    Data3: -374318922
-    Data4: 106828934
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-6835173380122067095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/W
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/W
-  Guid:
-    Data1: -1374334616
-    Data2: 1236722897
-    Data3: -665390688
-    Data4: 581142971
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-6771105651117325165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/W
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/W
-  Guid:
-    Data1: 1826594231
-    Data2: 1161617616
-    Data3: -1548567619
-    Data4: 1479641263
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 613
---- !u!114 &-6705891580273545715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/A
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/A
-  Guid:
-    Data1: -1501618282
-    Data2: 1272724278
-    Data3: 1573206926
-    Data4: -404574340
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-6356338042876499325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/D
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/D
-  Guid:
-    Data1: 1658671880
-    Data2: 1263900427
-    Data3: -376543332
-    Data4: 1461374150
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-6316915261341624344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/U
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/U
-  Guid:
-    Data1: -164731174
-    Data2: 1143912015
-    Data3: -959944060
-    Data4: -219881653
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-5971776528399024799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/N
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/N
-  Guid:
-    Data1: 1451787361
-    Data2: 1168518696
-    Data3: 736641689
-    Data4: -29814216
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-5867822250192860481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/A
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/A
-  Guid:
-    Data1: -293360192
-    Data2: 1199844059
-    Data3: -1771219821
-    Data4: 1444253534
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &-5814360872889435229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/P
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/P
-  Guid:
-    Data1: 773168938
-    Data2: 1252203974
-    Data3: 118107010
-    Data4: -1336044547
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &-5766159464052533014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/Y
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/Y
-  Guid:
-    Data1: -1548054741
-    Data2: 1314034566
-    Data3: 1344644000
-    Data4: 897208665
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-5682094304269336959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/D
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/D
-  Guid:
-    Data1: -846471522
-    Data2: 1322202135
-    Data3: -954520692
-    Data4: -1279469607
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-5363562736011256768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/I
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/I
-  Guid:
-    Data1: -1615356907
-    Data2: 1197428421
-    Data3: -1462226031
-    Data4: 1211206535
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &-5248197139815091706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/E
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/E
-  Guid:
-    Data1: 416342096
-    Data2: 1254967938
-    Data3: -983530305
-    Data4: -414608299
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-5034545012118834520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/B
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/B
-  Guid:
-    Data1: -1780042688
-    Data2: 1185127508
-    Data3: -1467186781
-    Data4: 1623521477
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &-5025139868153314713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/K
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/K
-  Guid:
-    Data1: 693299289
-    Data2: 1260499751
-    Data3: -1537838683
-    Data4: -2113323369
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-4961536612745921755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/L
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/L
-  Guid:
-    Data1: 1761966254
-    Data2: 1186068522
-    Data3: -1830391160
-    Data4: -1892659956
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-4661508129945032475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/K
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/K
-  Guid:
-    Data1: 533008829
-    Data2: 1082553375
-    Data3: -585333093
-    Data4: -425319426
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-4349084628927939269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/F
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/F
-  Guid:
-    Data1: 1314797744
-    Data2: 1134377687
-    Data3: 1896393361
-    Data4: -156632576
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-3681879097042864461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/S
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/S
-  Guid:
-    Data1: 829714466
-    Data2: 1237722213
-    Data3: 2078450339
-    Data4: 753393360
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-3339670118425179667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/V
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/V
-  Guid:
-    Data1: 1888991038
-    Data2: 1338883176
-    Data3: 875440277
-    Data4: 1218696743
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &-3240266667392513390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/X
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/X
-  Guid:
-    Data1: 1085669129
-    Data2: 1084072865
-    Data3: -1718500186
-    Data4: -1589389323
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-2936507494157163897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/Z
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/Z
-  Guid:
-    Data1: -123529919
-    Data2: 1081314268
-    Data3: 1009609652
-    Data4: 122294012
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &-2774860989110886705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/D
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/D
-  Guid:
-    Data1: 164588179
-    Data2: 1174274016
-    Data3: 1391455369
-    Data4: -303491588
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &-2472880728557940289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/S
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/S
-  Guid:
-    Data1: -1913549121
-    Data2: 1205266904
-    Data3: 1873528970
-    Data4: 1851206923
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &-2306074141606533953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/J
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/J
-  Guid:
-    Data1: -2032537493
-    Data2: 1208814287
-    Data3: -719340416
-    Data4: 626271985
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-2105013535143928958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/H
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/H
-  Guid:
-    Data1: -1337616593
-    Data2: 1196837661
-    Data3: 804529074
-    Data4: -1847455514
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-1971049979210600135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/F
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/F
-  Guid:
-    Data1: -455153243
-    Data2: 1135833592
-    Data3: -1489522522
-    Data4: 1035662535
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-1879828283604122236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/O
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/O
-  Guid:
-    Data1: 1372880457
-    Data2: 1078789444
-    Data3: 1751972540
-    Data4: 157938327
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-1847097709458226048
+--- !u!114 &-9185074078642436351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,7 +19,7 @@ MonoBehaviour:
     Data3: -443611762
     Data4: 96722278
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1107,1362 +27,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
---- !u!114 &-1810803759086926975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/J
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/J
-  Guid:
-    Data1: 1943472543
-    Data2: 1111539781
-    Data3: -1307602501
-    Data4: 1657423515
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-1330549281347600982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/V
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/V
-  Guid:
-    Data1: 1182118960
-    Data2: 1138374939
-    Data3: -1722361189
-    Data4: -1705009010
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-1302719120549819354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/L
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/L
-  Guid:
-    Data1: 309543839
-    Data2: 1241226047
-    Data3: 169367737
-    Data4: -1796020777
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-1301642849209097416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/Q
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/Q
-  Guid:
-    Data1: 1952034944
-    Data2: 1335141552
-    Data3: 97042094
-    Data4: -44652786
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-1122132077736883096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/I
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/I
-  Guid:
-    Data1: 1270585520
-    Data2: 1239373655
-    Data3: -517314908
-    Data4: 1468840064
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-922672045027564834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/I
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/I
-  Guid:
-    Data1: -1404133757
-    Data2: 1120602278
-    Data3: 1005815225
-    Data4: -1847928067
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-374258823099185378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/C
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/C
-  Guid:
-    Data1: -1920671062
-    Data2: 1307412489
-    Data3: -1379279940
-    Data4: 1913012939
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-358783579846628834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/F
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/F
-  Guid:
-    Data1: 2045829793
-    Data2: 1155171390
-    Data3: 2042965380
-    Data4: 1686641138
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-325865909877925700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/Z
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/Z
-  Guid:
-    Data1: -391741777
-    Data2: 1235130072
-    Data3: -1097095003
-    Data4: -369843850
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &-237466269346385941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/B
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/B
-  Guid:
-    Data1: -80666615
-    Data2: 1173228638
-    Data3: -1845245283
-    Data4: 2088089621
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3642372157835862778}
-  - {fileID: 818979850367756266}
-  EditorEvents:
-  - {fileID: 7440738734507622872}
-  - {fileID: -6356338042876499325}
-  - {fileID: -237466269346385941}
-  - {fileID: -3240266667392513390}
-  - {fileID: 586333222913053298}
-  - {fileID: 6544481921642085561}
-  - {fileID: -5363562736011256768}
-  - {fileID: 3243957575190814320}
-  - {fileID: 7618606898819019315}
-  - {fileID: 6198572035541691723}
-  - {fileID: 3448560091089255975}
-  - {fileID: -3681879097042864461}
-  - {fileID: -7456345869402130921}
-  - {fileID: -9158737168370102809}
-  - {fileID: 7222806224716796928}
-  - {fileID: -5814360872889435229}
-  - {fileID: -5766159464052533014}
-  - {fileID: -2105013535143928958}
-  - {fileID: -1330549281347600982}
-  - {fileID: 1403466013001460498}
-  - {fileID: 7436635947617759777}
-  - {fileID: 1381738606006531951}
-  - {fileID: 3497771235171017460}
-  - {fileID: -6960186933353775851}
-  - {fileID: -3339670118425179667}
-  - {fileID: -8893503180281401026}
-  - {fileID: -5034545012118834520}
-  - {fileID: 9179187846230709869}
-  - {fileID: -2936507494157163897}
-  - {fileID: 2524684119386412821}
-  - {fileID: 206936378262804366}
-  - {fileID: 1176027137201177529}
-  - {fileID: 7097284698746928787}
-  - {fileID: 7157449620898834420}
-  - {fileID: 4708843914699202376}
-  - {fileID: -1879828283604122236}
-  - {fileID: 2586261605257089167}
-  - {fileID: -5248197139815091706}
-  - {fileID: 8363410006194536424}
-  - {fileID: 3407762059788161806}
-  - {fileID: -5025139868153314713}
-  - {fileID: 3188334816221478178}
-  - {fileID: 1406042434023681098}
-  - {fileID: -5971776528399024799}
-  - {fileID: 2990795595844777136}
-  - {fileID: 2804019449339241305}
-  - {fileID: -6835173380122067095}
-  - {fileID: 6234428218913203408}
-  - {fileID: -2306074141606533953}
-  - {fileID: 948768290112536164}
-  - {fileID: 7661362716318543876}
-  - {fileID: 4655113799561373492}
-  - {fileID: 5961072294803850166}
-  - {fileID: 7686143455279969933}
-  - {fileID: 4745581763396872936}
-  - {fileID: 4606407001765586631}
-  - {fileID: -8160509753431592144}
-  - {fileID: 3969238036955095918}
-  - {fileID: -7542118701522972215}
-  - {fileID: 7447316320905097058}
-  - {fileID: -1301642849209097416}
-  - {fileID: -922672045027564834}
-  - {fileID: 5627751652845725105}
-  - {fileID: 3337540451423128527}
-  - {fileID: -1847097709458226048}
-  - {fileID: 1962692244556045147}
-  - {fileID: 8283715858678204719}
-  - {fileID: 7582443947033618203}
-  - {fileID: -2774860989110886705}
-  - {fileID: 8992633470899147331}
-  - {fileID: -6705891580273545715}
-  - {fileID: -5682094304269336959}
-  - {fileID: -1810803759086926975}
-  - {fileID: -1302719120549819354}
-  - {fileID: 8418051317207427576}
-  - {fileID: 5394608362735214335}
-  - {fileID: -358783579846628834}
-  - {fileID: -7968386897510758975}
-  - {fileID: -1971049979210600135}
-  - {fileID: -374258823099185378}
-  - {fileID: 5520029096359315104}
-  - {fileID: -4961536612745921755}
-  - {fileID: -325865909877925700}
-  - {fileID: -4349084628927939269}
-  - {fileID: -1122132077736883096}
-  - {fileID: -6771105651117325165}
-  - {fileID: -7827876785895551196}
-  - {fileID: -8901486419015942859}
-  - {fileID: -4661508129945032475}
-  - {fileID: -2472880728557940289}
-  - {fileID: -5867822250192860481}
-  - {fileID: -9128632492696286944}
-  - {fileID: 8767664771848323685}
-  - {fileID: 5647746965281977015}
-  - {fileID: -7503657741667868727}
-  - {fileID: -6316915261341624344}
-  - {fileID: 4073265778144122951}
-  - {fileID: 8741727850016491560}
-  - {fileID: -8928873646400848014}
-  - {fileID: 8868925535363731900}
-  - {fileID: 8915929389403734121}
-  - {fileID: -7282056245411780357}
-  - {fileID: 4484817082483826733}
-  - {fileID: 6331989977691472734}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 818979850367756266}
-  StringsBanks:
-  - {fileID: 3642372157835862778}
-  cacheTime: 638668488188622134
-  cacheVersion: 131620
---- !u!114 &206936378262804366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/P
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/P
-  Guid:
-    Data1: -1777572028
-    Data2: 1086627580
-    Data3: 261604256
-    Data4: 951128561
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &586333222913053298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/Z
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/Z
-  Guid:
-    Data1: -2129548271
-    Data2: 1131641321
-    Data3: -1450792780
-    Data4: 1196009202
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &818979850367756266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Animalese_AudioStaging/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638668488188622134
-  FileSizes:
-  - Name: Desktop
-    Value: 1684544
-  Exists: 1
---- !u!114 &948768290112536164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/Y
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/Y
-  Guid:
-    Data1: 1302068078
-    Data2: 1212639779
-    Data3: -504105318
-    Data4: -1189454259
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &1176027137201177529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/O
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/O
-  Guid:
-    Data1: -1705178811
-    Data2: 1244024658
-    Data3: 770203057
-    Data4: 788446126
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &1381738606006531951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/L
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/L
-  Guid:
-    Data1: -262603470
-    Data2: 1139878334
-    Data3: -614669417
-    Data4: 1011031175
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &1403466013001460498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/C
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/C
-  Guid:
-    Data1: 1848670514
-    Data2: 1191921218
-    Data3: 1583257230
-    Data4: 1978408175
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &1406042434023681098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/T
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/T
-  Guid:
-    Data1: -1139042976
-    Data2: 1321207512
-    Data3: 1973448876
-    Data4: -196040660
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &1962692244556045147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/N
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/N
-  Guid:
-    Data1: -1461879409
-    Data2: 1081472871
-    Data3: -831312236
-    Data4: 462482226
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &2524684119386412821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/K
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/K
-  Guid:
-    Data1: -1130247871
-    Data2: 1153025683
-    Data3: -1174420091
-    Data4: 809977920
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &2586261605257089167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/W
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/W
-  Guid:
-    Data1: 1836363593
-    Data2: 1291814309
-    Data3: -2093825141
-    Data4: -1920651804
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &2804019449339241305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/S
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/S
-  Guid:
-    Data1: 1783314533
-    Data2: 1089924615
-    Data3: 973287320
-    Data4: 1583241807
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &2990795595844777136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/O
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/O
-  Guid:
-    Data1: 1876614755
-    Data2: 1109392406
-    Data3: 389197231
-    Data4: 600483206
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &3188334816221478178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/Q
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/Q
-  Guid:
-    Data1: -211154854
-    Data2: 1331544549
-    Data3: 948528529
-    Data4: -2060454718
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &3243957575190814320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/M
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/M
-  Guid:
-    Data1: -566687978
-    Data2: 1188111774
-    Data3: 927822241
-    Data4: 111541670
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &3337540451423128527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/H
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/H
-  Guid:
-    Data1: 2036337548
-    Data2: 1133673990
-    Data3: 1280277918
-    Data4: -1393592695
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &3407762059788161806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/T
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/T
-  Guid:
-    Data1: 112850264
-    Data2: 1172875078
-    Data3: -1047481952
-    Data4: -1750070285
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &3448560091089255975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/J
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/J
-  Guid:
-    Data1: 1162596382
-    Data2: 1251060537
-    Data3: -1299785069
-    Data4: -764509123
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &3497771235171017460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/V
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/V
-  Guid:
-    Data1: -1407496133
-    Data2: 1273694965
-    Data3: 854250678
-    Data4: 1171113713
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &3642372157835862778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Animalese_AudioStaging/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638668488188622134
-  FileSizes:
-  - Name: Desktop
-    Value: 4142
-  Exists: 1
---- !u!114 &3969238036955095918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/T
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/T
-  Guid:
-    Data1: -2130805892
-    Data2: 1317271323
-    Data3: -1177959236
-    Data4: 1364699266
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &4073265778144122951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/F
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/F
-  Guid:
-    Data1: 810186718
-    Data2: 1257648643
-    Data3: 415363220
-    Data4: 1287900390
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 375
---- !u!114 &4484817082483826733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/L
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/L
-  Guid:
-    Data1: 2055195897
-    Data2: 1119601786
-    Data3: 569834153
-    Data4: -1663522861
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 540
---- !u!114 &4606407001765586631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/G
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/G
-  Guid:
-    Data1: -626960517
-    Data2: 1267355640
-    Data3: -1565464672
-    Data4: -72758398
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &4655113799561373492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/E
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/E
-  Guid:
-    Data1: 1912195187
-    Data2: 1238189326
-    Data3: -255347290
-    Data4: -1660001116
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &4708843914699202376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/X
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/X
-  Guid:
-    Data1: 1896729670
-    Data2: 1333700760
-    Data3: -2092517999
-    Data4: -1366808570
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &4745581763396872936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/X
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/X
-  Guid:
-    Data1: -1385824134
-    Data2: 1190055078
-    Data3: 1315061893
-    Data4: 1109800280
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &5394608362735214335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/D
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/D
-  Guid:
-    Data1: 588811169
-    Data2: 1332879450
-    Data3: -427813481
-    Data4: 65889731
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &5520029096359315104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/H
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/H
-  Guid:
-    Data1: 1558642604
-    Data2: 1264166535
-    Data3: 1118327231
-    Data4: -1069148721
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &5627751652845725105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/R
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/R
-  Guid:
-    Data1: -288840316
-    Data2: 1116260677
-    Data3: 1838555531
-    Data4: 345685236
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 464
---- !u!114 &5647746965281977015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/A
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/A
-  Guid:
-    Data1: 529505482
-    Data2: 1162101511
-    Data3: 231192737
-    Data4: -1331584704
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &5961072294803850166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/U
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/U
-  Guid:
-    Data1: -241556106
-    Data2: 1136198998
-    Data3: 576988817
-    Data4: -121915544
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &6198572035541691723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/E
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/E
-  Guid:
-    Data1: -1818643172
-    Data2: 1272917712
-    Data3: 674036865
-    Data4: 1789060486
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &6234428218913203408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/S
-  m_EditorClassIdentifier: 
-  Path: event:/Drums/S
-  Guid:
-    Data1: -1689951896
-    Data2: 1194413030
-    Data3: 2112288918
-    Data4: 1147774713
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &6331989977691472734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/P
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/P
-  Guid:
-    Data1: 1857152505
-    Data2: 1340358151
-    Data3: -1745773923
-    Data4: 205451610
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &6544481921642085561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/N
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/N
-  Guid:
-    Data1: 1834372627
-    Data2: 1236023092
-    Data3: 534367150
-    Data4: -2074386810
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 625
---- !u!114 &7097284698746928787
+--- !u!114 &-8974850501254826859
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2481,7 +46,7 @@ MonoBehaviour:
     Data3: -1655988073
     Data4: -2013484301
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2489,7 +54,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 625
---- !u!114 &7157449620898834420
+--- !u!114 &-8866608696767208016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2499,24 +64,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/B
+  m_Name: event:/AnimaleseBase/W
   m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/B
+  Path: event:/AnimaleseBase/W
   Guid:
-    Data1: 207008582
-    Data2: 1308245508
-    Data3: 1755659696
-    Data4: -303363061
+    Data1: 1826594231
+    Data2: 1161617616
+    Data3: -1548567619
+    Data4: 1479641263
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &7222806224716796928
+  Length: 613
+--- !u!114 &-8703895674534821203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2526,24 +91,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/N
+  m_Name: event:/AnimaleseBase/P
   m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/N
+  Path: event:/AnimaleseBase/P
   Guid:
-    Data1: -599400409
-    Data2: 1171827022
-    Data3: -795724120
-    Data4: -1441322912
+    Data1: 773168938
+    Data2: 1252203974
+    Data3: 118107010
+    Data4: -1336044547
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &7436635947617759777
+  Length: 500
+--- !u!114 &-8377973344920645759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2553,24 +118,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/B
+  m_Name: event:/AnimaleseBase/D
   m_EditorClassIdentifier: 
-  Path: event:/Drums/B
+  Path: event:/AnimaleseBase/D
   Guid:
-    Data1: -123421390
-    Data2: 1086187927
-    Data3: 537165221
-    Data4: 961252205
+    Data1: 164588179
+    Data2: 1174274016
+    Data3: 1391455369
+    Data4: -303491588
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &7440738734507622872
+  Length: 500
+--- !u!114 &-8230596691377327761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2580,24 +145,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Drums/G
+  m_Name: event:/AlphabetSong/F
   m_EditorClassIdentifier: 
-  Path: event:/Drums/G
+  Path: event:/AlphabetSong/F
   Guid:
-    Data1: 1451832834
-    Data2: 1111984966
-    Data3: 1143862707
-    Data4: -1776214952
+    Data1: -455153243
+    Data2: 1135833592
+    Data3: -1489522522
+    Data4: 1035662535
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &7447316320905097058
+  Length: 1000
+--- !u!114 &-8147614920395743829
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2607,24 +172,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/V
+  m_Name: event:/AnimaleseBase/X
   m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/V
+  Path: event:/AnimaleseBase/X
   Guid:
-    Data1: -1301559425
-    Data2: 1182927243
-    Data3: 1152234937
-    Data4: 1699917578
+    Data1: -1385824134
+    Data2: 1190055078
+    Data3: 1315061893
+    Data4: 1109800280
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
---- !u!114 &7582443947033618203
+  Length: 625
+--- !u!114 &-7727738307859129552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2634,16 +199,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/Y
+  m_Name: event:/AnimaleseBase/Q
   m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/Y
+  Path: event:/AnimaleseBase/Q
   Guid:
-    Data1: -616319854
-    Data2: 1093054515
-    Data3: 1482038207
-    Data4: 493304201
+    Data1: -2000639451
+    Data2: 1119667822
+    Data3: 1736403090
+    Data4: 232870496
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 750
+--- !u!114 &-7681041882350751812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/C
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/C
+  Guid:
+    Data1: -1920671062
+    Data2: 1307412489
+    Data3: -1379279940
+    Data4: 1913012939
+  Banks:
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2651,7 +243,115 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
---- !u!114 &7618606898819019315
+--- !u!114 &-7675541023417133639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/U
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/U
+  Guid:
+    Data1: -164731174
+    Data2: 1143912015
+    Data3: -959944060
+    Data4: -219881653
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-7629656725673796566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/H
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/H
+  Guid:
+    Data1: -1337616593
+    Data2: 1196837661
+    Data3: 804529074
+    Data4: -1847455514
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-7531370187195095243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Z
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Z
+  Guid:
+    Data1: 103910435
+    Data2: 1149726600
+    Data3: 1689500323
+    Data4: -1248022974
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-7494055978434969180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/F
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/F
+  Guid:
+    Data1: 1314797744
+    Data2: 1134377687
+    Data3: 1896393361
+    Data4: -156632576
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-7482396787492688708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2670,7 +370,7 @@ MonoBehaviour:
     Data3: 1958329778
     Data4: 9149215
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2678,223 +378,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
---- !u!114 &7661362716318543876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/T
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/T
-  Guid:
-    Data1: -1212435085
-    Data2: 1095903071
-    Data3: 360409763
-    Data4: 1788278007
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &7686143455279969933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/M
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/M
-  Guid:
-    Data1: 2110973049
-    Data2: 1143502476
-    Data3: -448438893
-    Data4: 508922044
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &8283715858678204719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/Y
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/Y
-  Guid:
-    Data1: -1640897647
-    Data2: 1101629722
-    Data3: 279080373
-    Data4: -403723724
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &8363410006194536424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/O
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/O
-  Guid:
-    Data1: -484948908
-    Data2: 1246056476
-    Data3: -1516450166
-    Data4: 417886001
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 651
---- !u!114 &8418051317207427576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlphabetSong/W
-  m_EditorClassIdentifier: 
-  Path: event:/AlphabetSong/W
-  Guid:
-    Data1: 1460647072
-    Data2: 1316570223
-    Data3: -1286070634
-    Data4: 860792197
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1000
---- !u!114 &8741727850016491560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/R
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/R
-  Guid:
-    Data1: 1309481196
-    Data2: 1125042210
-    Data3: -134820185
-    Data4: 1724790596
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &8767664771848323685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PianoChromatic/G
-  m_EditorClassIdentifier: 
-  Path: event:/PianoChromatic/G
-  Guid:
-    Data1: 1910874310
-    Data2: 1237546573
-    Data3: 1881678503
-    Data4: 721390174
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &8868925535363731900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AnimaleseBase/K
-  m_EditorClassIdentifier: 
-  Path: event:/AnimaleseBase/K
-  Guid:
-    Data1: 1016376047
-    Data2: 1276732461
-    Data3: 570950835
-    Data4: 113962342
-  Banks:
-  - {fileID: 818979850367756266}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 500
---- !u!114 &8915929389403734121
+--- !u!114 &-7037071018155668521
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2913,7 +397,7 @@ MonoBehaviour:
     Data3: -1401073474
     Data4: 324098044
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2921,7 +405,88 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
---- !u!114 &8992633470899147331
+--- !u!114 &-6760289198773659778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/T
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/T
+  Guid:
+    Data1: -2130805892
+    Data2: 1317271323
+    Data3: -1177959236
+    Data4: 1364699266
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-6756677726787499598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/S
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/S
+  Guid:
+    Data1: -1913549121
+    Data2: 1205266904
+    Data3: 1873528970
+    Data4: 1851206923
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-6396522452607399962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/W
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/W
+  Guid:
+    Data1: 1460647072
+    Data2: 1316570223
+    Data3: -1286070634
+    Data4: 860792197
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-6344811142617605927
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2940,7 +505,7 @@ MonoBehaviour:
     Data3: -677536354
     Data4: 1204183629
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2948,7 +513,1288 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
---- !u!114 &9179187846230709869
+--- !u!114 &-5396233404954811432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/S
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/S
+  Guid:
+    Data1: 1783314533
+    Data2: 1089924615
+    Data3: 973287320
+    Data4: 1583241807
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-5369522776176220944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/P
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/P
+  Guid:
+    Data1: -1777572028
+    Data2: 1086627580
+    Data3: 261604256
+    Data4: 951128561
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-5310409232084361539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/H
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/H
+  Guid:
+    Data1: 1558642604
+    Data2: 1264166535
+    Data3: 1118327231
+    Data4: -1069148721
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-5143215044270929287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Y
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Y
+  Guid:
+    Data1: -1548054741
+    Data2: 1314034566
+    Data3: 1344644000
+    Data4: 897208665
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4893572124354969793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/G
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/G
+  Guid:
+    Data1: 1451832834
+    Data2: 1111984966
+    Data3: 1143862707
+    Data4: -1776214952
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4738182474499118073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/I
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/I
+  Guid:
+    Data1: 1270585520
+    Data2: 1239373655
+    Data3: -517314908
+    Data4: 1468840064
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4329368325962097974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/V
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/V
+  Guid:
+    Data1: 1888991038
+    Data2: 1338883176
+    Data3: 875440277
+    Data4: 1218696743
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-4249860039742862996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/D
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/D
+  Guid:
+    Data1: 588811169
+    Data2: 1332879450
+    Data3: -427813481
+    Data4: 65889731
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4055321917976686039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/P
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/P
+  Guid:
+    Data1: 1857152505
+    Data2: 1340358151
+    Data3: -1745773923
+    Data4: 205451610
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-4005725627065079883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/L
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/L
+  Guid:
+    Data1: -262603470
+    Data2: 1139878334
+    Data3: -614669417
+    Data4: 1011031175
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-3816070210733250076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/I
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/I
+  Guid:
+    Data1: 2128802877
+    Data2: 1200314279
+    Data3: -374318922
+    Data4: 106828934
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-3203709769319928143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/I
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/I
+  Guid:
+    Data1: -1615356907
+    Data2: 1197428421
+    Data3: -1462226031
+    Data4: 1211206535
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-3050708706032025139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/A
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/A
+  Guid:
+    Data1: -1898405979
+    Data2: 1078471670
+    Data3: -1796391766
+    Data4: -185530629
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-3010930331897750513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/B
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/B
+  Guid:
+    Data1: -1780042688
+    Data2: 1185127508
+    Data3: -1467186781
+    Data4: 1623521477
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-2826872998665169958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/F
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/F
+  Guid:
+    Data1: 810186718
+    Data2: 1257648643
+    Data3: 415363220
+    Data4: 1287900390
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
+--- !u!114 &-2733074319855395512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/N
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/N
+  Guid:
+    Data1: 1451787361
+    Data2: 1168518696
+    Data3: 736641689
+    Data4: -29814216
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2597674485645634488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/E
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/E
+  Guid:
+    Data1: 416342096
+    Data2: 1254967938
+    Data3: -983530305
+    Data4: -414608299
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2385743203963926438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/L
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/L
+  Guid:
+    Data1: 1761966254
+    Data2: 1186068522
+    Data3: -1830391160
+    Data4: -1892659956
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2334826315873386904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/V
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/V
+  Guid:
+    Data1: -1407496133
+    Data2: 1273694965
+    Data3: 854250678
+    Data4: 1171113713
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2040729099280541115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/K
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/K
+  Guid:
+    Data1: 1016376047
+    Data2: 1276732461
+    Data3: 570950835
+    Data4: 113962342
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-1898382689664871658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/Y
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/Y
+  Guid:
+    Data1: 1302068078
+    Data2: 1212639779
+    Data3: -504105318
+    Data4: -1189454259
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-1739237962480669879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/Z
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/Z
+  Guid:
+    Data1: -391741777
+    Data2: 1235130072
+    Data3: -1097095003
+    Data4: -369843850
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-1628962035439224721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/V
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/V
+  Guid:
+    Data1: -1301559425
+    Data2: 1182927243
+    Data3: 1152234937
+    Data4: 1699917578
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1529262258798345750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Animalese_AudioStaging/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638668495115490958
+  FileSizes:
+  - Name: Desktop
+    Value: 1684544
+  Exists: 1
+--- !u!114 &-1302593165987318539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/R
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/R
+  Guid:
+    Data1: -288840316
+    Data2: 1116260677
+    Data3: 1838555531
+    Data4: 345685236
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 464
+--- !u!114 &-1271212802209761580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/G
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/G
+  Guid:
+    Data1: 1910874310
+    Data2: 1237546573
+    Data3: 1881678503
+    Data4: 721390174
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1170904130879331620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/J
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/J
+  Guid:
+    Data1: 1162596382
+    Data2: 1251060537
+    Data3: -1299785069
+    Data4: -764509123
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-1032261767807868264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/D
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/D
+  Guid:
+    Data1: 1658671880
+    Data2: 1263900427
+    Data3: -376543332
+    Data4: 1461374150
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1029613738454675153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/E
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/E
+  Guid:
+    Data1: -1818643172
+    Data2: 1272917712
+    Data3: 674036865
+    Data4: 1789060486
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-984340456741604270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/N
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/N
+  Guid:
+    Data1: -599400409
+    Data2: 1171827022
+    Data3: -795724120
+    Data4: -1441322912
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-747974645964916519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/R
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/R
+  Guid:
+    Data1: 1309481196
+    Data2: 1125042210
+    Data3: -134820185
+    Data4: 1724790596
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-726175703061965743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/S
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/S
+  Guid:
+    Data1: -1689951896
+    Data2: 1194413030
+    Data3: 2112288918
+    Data4: 1147774713
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-688336471837839059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/C
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/C
+  Guid:
+    Data1: 1848670514
+    Data2: 1191921218
+    Data3: 1583257230
+    Data4: 1978408175
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-466098599400518193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/O
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/O
+  Guid:
+    Data1: 1876614755
+    Data2: 1109392406
+    Data3: 389197231
+    Data4: 600483206
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-261107926347323501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/G
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/G
+  Guid:
+    Data1: 2075072697
+    Data2: 1108256868
+    Data3: 599480985
+    Data4: 1030950373
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-222826136177989353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/J
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/J
+  Guid:
+    Data1: 1943472543
+    Data2: 1111539781
+    Data3: -1307602501
+    Data4: 1657423515
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-167995459167903877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/L
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/L
+  Guid:
+    Data1: 2055195897
+    Data2: 1119601786
+    Data3: 569834153
+    Data4: -1663522861
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 540
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 4459948201036687460}
+  - {fileID: -1529262258798345750}
+  EditorEvents:
+  - {fileID: -4893572124354969793}
+  - {fileID: -1032261767807868264}
+  - {fileID: 7757507556236863407}
+  - {fileID: 8817175097504943655}
+  - {fileID: 3433919610707849047}
+  - {fileID: 8756594474508865778}
+  - {fileID: -3203709769319928143}
+  - {fileID: 7900880329913532494}
+  - {fileID: -7482396787492688708}
+  - {fileID: -1029613738454675153}
+  - {fileID: -1170904130879331620}
+  - {fileID: 8630956098620353323}
+  - {fileID: -7531370187195095243}
+  - {fileID: -7727738307859129552}
+  - {fileID: -984340456741604270}
+  - {fileID: -8703895674534821203}
+  - {fileID: -5143215044270929287}
+  - {fileID: -7629656725673796566}
+  - {fileID: 2604320559941934923}
+  - {fileID: -688336471837839059}
+  - {fileID: 5842762651659042833}
+  - {fileID: -4005725627065079883}
+  - {fileID: -2334826315873386904}
+  - {fileID: -3816070210733250076}
+  - {fileID: -4329368325962097974}
+  - {fileID: 2897403425564446854}
+  - {fileID: -3010930331897750513}
+  - {fileID: 2191796072514832078}
+  - {fileID: 5299109690552292741}
+  - {fileID: 5733141552118383511}
+  - {fileID: -5369522776176220944}
+  - {fileID: 5688950231325081899}
+  - {fileID: -8974850501254826859}
+  - {fileID: 8927662793553265793}
+  - {fileID: 3247176920111041507}
+  - {fileID: 495579583968237956}
+  - {fileID: 5313329121701347877}
+  - {fileID: -2597674485645634488}
+  - {fileID: 3595973722179299087}
+  - {fileID: 3776949156286192485}
+  - {fileID: 8132443781941617509}
+  - {fileID: 8251274609705325304}
+  - {fileID: 8778854907203348184}
+  - {fileID: -2733074319855395512}
+  - {fileID: -466098599400518193}
+  - {fileID: -5396233404954811432}
+  - {fileID: 8106129313953613218}
+  - {fileID: -726175703061965743}
+  - {fileID: 2266195044805262044}
+  - {fileID: -1898382689664871658}
+  - {fileID: 7412673956565281996}
+  - {fileID: 7144835829342017733}
+  - {fileID: 6082096117338927145}
+  - {fileID: 3138992776295216475}
+  - {fileID: -8147614920395743829}
+  - {fileID: 2249254548602892231}
+  - {fileID: 3585406016246506375}
+  - {fileID: -6760289198773659778}
+  - {fileID: 7048065471486239265}
+  - {fileID: -1628962035439224721}
+  - {fileID: 1201925400503692323}
+  - {fileID: 5617971145331790436}
+  - {fileID: -1302593165987318539}
+  - {fileID: 479308818128293901}
+  - {fileID: -9185074078642436351}
+  - {fileID: 6014217723663711474}
+  - {fileID: 2095150395270864704}
+  - {fileID: 1150384395815743699}
+  - {fileID: -8377973344920645759}
+  - {fileID: -6344811142617605927}
+  - {fileID: 6049471939138745500}
+  - {fileID: 3998765891261417332}
+  - {fileID: -222826136177989353}
+  - {fileID: 4214436482056051151}
+  - {fileID: -6396522452607399962}
+  - {fileID: -4249860039742862996}
+  - {fileID: 4346503094554202145}
+  - {fileID: -3050708706032025139}
+  - {fileID: -8230596691377327761}
+  - {fileID: -7681041882350751812}
+  - {fileID: -5310409232084361539}
+  - {fileID: -2385743203963926438}
+  - {fileID: -1739237962480669879}
+  - {fileID: -7494055978434969180}
+  - {fileID: -4738182474499118073}
+  - {fileID: -8866608696767208016}
+  - {fileID: 7843239560854265188}
+  - {fileID: -261107926347323501}
+  - {fileID: 5300125948545740391}
+  - {fileID: -6756677726787499598}
+  - {fileID: 7005624310124004348}
+  - {fileID: 6771985764193530029}
+  - {fileID: -1271212802209761580}
+  - {fileID: 4112484698675632518}
+  - {fileID: 4104968405974386158}
+  - {fileID: -7675541023417133639}
+  - {fileID: -2826872998665169958}
+  - {fileID: -747974645964916519}
+  - {fileID: 6065835309019786627}
+  - {fileID: -2040729099280541115}
+  - {fileID: -7037071018155668521}
+  - {fileID: 850696555088861466}
+  - {fileID: -167995459167903877}
+  - {fileID: -4055321917976686039}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1529262258798345750}
+  StringsBanks:
+  - {fileID: 4459948201036687460}
+  cacheTime: 638668495115492284
+  cacheVersion: 131620
+--- !u!114 &479308818128293901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/H
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/H
+  Guid:
+    Data1: 2036337548
+    Data2: 1133673990
+    Data3: 1280277918
+    Data4: -1393592695
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &495579583968237956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/O
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/O
+  Guid:
+    Data1: 1372880457
+    Data2: 1078789444
+    Data3: 1751972540
+    Data4: 157938327
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &850696555088861466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/P
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/P
+  Guid:
+    Data1: -1730421003
+    Data2: 1244243443
+    Data3: -101740904
+    Data4: 2064433095
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &1150384395815743699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Y
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Y
+  Guid:
+    Data1: -616319854
+    Data2: 1093054515
+    Data3: 1482038207
+    Data4: 493304201
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &1201925400503692323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Q
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Q
+  Guid:
+    Data1: 1952034944
+    Data2: 1335141552
+    Data3: 97042094
+    Data4: -44652786
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &2095150395270864704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/Y
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/Y
+  Guid:
+    Data1: -1640897647
+    Data2: 1101629722
+    Data3: 279080373
+    Data4: -403723724
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &2191796072514832078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2967,7 +1813,7 @@ MonoBehaviour:
     Data3: 729712025
     Data4: -1158906526
   Banks:
-  - {fileID: 818979850367756266}
+  - {fileID: -1529262258798345750}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2975,3 +1821,1157 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &2249254548602892231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/G
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/G
+  Guid:
+    Data1: -626960517
+    Data2: 1267355640
+    Data3: -1565464672
+    Data4: -72758398
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &2266195044805262044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/J
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/J
+  Guid:
+    Data1: -2032537493
+    Data2: 1208814287
+    Data3: -719340416
+    Data4: 626271985
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &2604320559941934923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/V
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/V
+  Guid:
+    Data1: 1182118960
+    Data2: 1138374939
+    Data3: -1722361189
+    Data4: -1705009010
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &2897403425564446854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/C
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/C
+  Guid:
+    Data1: -1444179392
+    Data2: 1280169087
+    Data3: 824177799
+    Data4: 408516524
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
+--- !u!114 &3138992776295216475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/M
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/M
+  Guid:
+    Data1: 2110973049
+    Data2: 1143502476
+    Data3: -448438893
+    Data4: 508922044
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &3247176920111041507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/X
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/X
+  Guid:
+    Data1: 1896729670
+    Data2: 1333700760
+    Data3: -2092517999
+    Data4: -1366808570
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &3433919610707849047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Z
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Z
+  Guid:
+    Data1: -2129548271
+    Data2: 1131641321
+    Data3: -1450792780
+    Data4: 1196009202
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &3585406016246506375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/E
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/E
+  Guid:
+    Data1: 529161596
+    Data2: 1084617201
+    Data3: 274729856
+    Data4: 919547730
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 651
+--- !u!114 &3595973722179299087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/O
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/O
+  Guid:
+    Data1: -484948908
+    Data2: 1246056476
+    Data3: -1516450166
+    Data4: 417886001
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 651
+--- !u!114 &3776949156286192485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/T
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/T
+  Guid:
+    Data1: 112850264
+    Data2: 1172875078
+    Data3: -1047481952
+    Data4: -1750070285
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &3998765891261417332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/D
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/D
+  Guid:
+    Data1: -846471522
+    Data2: 1322202135
+    Data3: -954520692
+    Data4: -1279469607
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &4104968405974386158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/H
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/H
+  Guid:
+    Data1: 586687184
+    Data2: 1091872933
+    Data3: 1089599409
+    Data4: 1705985794
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &4112484698675632518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/A
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/A
+  Guid:
+    Data1: 529505482
+    Data2: 1162101511
+    Data3: 231192737
+    Data4: -1331584704
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &4214436482056051151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/L
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/L
+  Guid:
+    Data1: 309543839
+    Data2: 1241226047
+    Data3: 169367737
+    Data4: -1796020777
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &4346503094554202145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/F
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/F
+  Guid:
+    Data1: 2045829793
+    Data2: 1155171390
+    Data3: 2042965380
+    Data4: 1686641138
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &4459948201036687460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Animalese_AudioStaging/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638668495115492284
+  FileSizes:
+  - Name: Desktop
+    Value: 4142
+  Exists: 1
+--- !u!114 &5299109690552292741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/Z
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/Z
+  Guid:
+    Data1: -123529919
+    Data2: 1081314268
+    Data3: 1009609652
+    Data4: 122294012
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &5300125948545740391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/K
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/K
+  Guid:
+    Data1: 533008829
+    Data2: 1082553375
+    Data3: -585333093
+    Data4: -425319426
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5313329121701347877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/W
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/W
+  Guid:
+    Data1: 1836363593
+    Data2: 1291814309
+    Data3: -2093825141
+    Data4: -1920651804
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5617971145331790436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/I
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/I
+  Guid:
+    Data1: -1404133757
+    Data2: 1120602278
+    Data3: 1005815225
+    Data4: -1847928067
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &5688950231325081899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/O
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/O
+  Guid:
+    Data1: -1705178811
+    Data2: 1244024658
+    Data3: 770203057
+    Data4: 788446126
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5733141552118383511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/K
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/K
+  Guid:
+    Data1: -1130247871
+    Data2: 1153025683
+    Data3: -1174420091
+    Data4: 809977920
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5842762651659042833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/B
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/B
+  Guid:
+    Data1: -123421390
+    Data2: 1086187927
+    Data3: 537165221
+    Data4: 961252205
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &6014217723663711474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/N
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/N
+  Guid:
+    Data1: -1461879409
+    Data2: 1081472871
+    Data3: -831312236
+    Data4: 462482226
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &6049471939138745500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/A
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/A
+  Guid:
+    Data1: -1501618282
+    Data2: 1272724278
+    Data3: 1573206926
+    Data4: -404574340
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &6065835309019786627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/M
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/M
+  Guid:
+    Data1: 519904237
+    Data2: 1317792027
+    Data3: 463157675
+    Data4: -1344043848
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &6082096117338927145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/U
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/U
+  Guid:
+    Data1: -241556106
+    Data2: 1136198998
+    Data3: 576988817
+    Data4: -121915544
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &6771985764193530029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/C
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/C
+  Guid:
+    Data1: 2073150403
+    Data2: 1286274814
+    Data3: -2140944750
+    Data4: -1832433136
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7005624310124004348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/A
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/A
+  Guid:
+    Data1: -293360192
+    Data2: 1199844059
+    Data3: -1771219821
+    Data4: 1444253534
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &7048065471486239265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/U
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/U
+  Guid:
+    Data1: -2015534210
+    Data2: 1305894613
+    Data3: -1304791887
+    Data4: -824308485
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7144835829342017733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/E
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/E
+  Guid:
+    Data1: 1912195187
+    Data2: 1238189326
+    Data3: -255347290
+    Data4: -1660001116
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7412673956565281996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/T
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/T
+  Guid:
+    Data1: -1212435085
+    Data2: 1095903071
+    Data3: 360409763
+    Data4: 1788278007
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7757507556236863407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/B
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/B
+  Guid:
+    Data1: -80666615
+    Data2: 1173228638
+    Data3: -1845245283
+    Data4: 2088089621
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7843239560854265188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/X
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/X
+  Guid:
+    Data1: 113426871
+    Data2: 1166443023
+    Data3: -165689428
+    Data4: -442883859
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7900880329913532494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/M
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/M
+  Guid:
+    Data1: -566687978
+    Data2: 1188111774
+    Data3: 927822241
+    Data4: 111541670
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8106129313953613218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/W
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/W
+  Guid:
+    Data1: -1374334616
+    Data2: 1236722897
+    Data3: -665390688
+    Data4: 581142971
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8132443781941617509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/K
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/K
+  Guid:
+    Data1: 693299289
+    Data2: 1260499751
+    Data3: -1537838683
+    Data4: -2113323369
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &8251274609705325304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Q
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Q
+  Guid:
+    Data1: -211154854
+    Data2: 1331544549
+    Data3: 948528529
+    Data4: -2060454718
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8630956098620353323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/S
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/S
+  Guid:
+    Data1: 829714466
+    Data2: 1237722213
+    Data3: 2078450339
+    Data4: 753393360
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8756594474508865778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/N
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/N
+  Guid:
+    Data1: 1834372627
+    Data2: 1236023092
+    Data3: 534367150
+    Data4: -2074386810
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &8778854907203348184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/T
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/T
+  Guid:
+    Data1: -1139042976
+    Data2: 1321207512
+    Data3: 1973448876
+    Data4: -196040660
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8817175097504943655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/X
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/X
+  Guid:
+    Data1: 1085669129
+    Data2: 1084072865
+    Data3: -1718500186
+    Data4: -1589389323
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8927662793553265793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/B
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/B
+  Guid:
+    Data1: 207008582
+    Data2: 1308245508
+    Data3: 1755659696
+    Data4: -303363061
+  Banks:
+  - {fileID: -1529262258798345750}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
