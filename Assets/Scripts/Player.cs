@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     [SerializeField] private float _interactableObjectRadius = 10f;
 
     
-    [SerializeField] private SpaceVehicle _spaceVehicle;
     [SerializeField] private TrailRenderer tr;
     [SerializeField] private float _repairRadius;
     

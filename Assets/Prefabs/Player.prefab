@@ -82,8 +82,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9040f710f159245ca961f0afc275ef37, type: 3}
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 787523249, guid: 2f45021cf96a616c7a09de1ee9f54320, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -193,7 +191,6 @@ MonoBehaviour:
   _dashCoolDown: 0.1
   _interactableObjectRadius: 1
   _spaceVehicle: {fileID: 0}
-  _currentTool: {fileID: 0}
   tr: {fileID: 2044536566}
   _repairRadius: 10
   mainTheme: {fileID: 8300000, guid: a333906c6f19c7845a3382711723316e, type: 3}

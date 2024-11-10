@@ -17,9 +17,6 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
     [SerializeField] private List<GameObject> _toolImages;
     public Dictionary<int, GameObject> _toolImageIds = new Dictionary<int, GameObject>();
     
-    
-    [SerializeField] private SpaceVehicle _spaceVehicle;
-    
     private bool _isMoving;
 
     private void Awake()
@@ -27,7 +24,6 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
         for (int i = 0; i < _toolImages.Count; i++)
         {
             _toolImageIds.Add(i, _toolImages[i]);
-            Debug.Log(_toolImageIds[i]);
             _toolImageIds[i].gameObject.SetActive(false);
             
         }
@@ -37,6 +33,7 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
     {
         _movingTarget.transform.position = _leftEndPivotPoint.position;
         _matchingTarget.transform.position = _rightEndPivotPoint.position;
+        
     }
     
 
@@ -67,7 +64,8 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
             int randomToolIndex = Random.Range(0, _toolImages.Count);
             _toolImages[randomToolIndex].SetActive(true);
             
-            _spaceVehicle.ApplyTool(randomToolIndex);
+            var spaceVehicle = FindObjectOfType<SpaceVehicle>();
+            spaceVehicle?.ApplyTool(randomToolIndex);
             Debug.Log(randomToolIndex);
                 
             Invoke(nameof(DisableImage), 2f);
