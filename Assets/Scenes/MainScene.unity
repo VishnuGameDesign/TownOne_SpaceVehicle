@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b102feb929d9dd9f986fb93fd5110981, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -286,12 +290,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: <Animator>k__BackingField
+      value: 
+      objectReference: {fileID: 2044536566}
+    - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: OnPaused.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 849250193}
     - target: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -349,6 +369,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6259046520675510822, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -199895093, guid: 2f45021cf96a616c7a09de1ee9f54320, type: 3}
     - target: {fileID: 6259046520675510823, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -364,7 +388,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
   m_PrefabInstance: {fileID: 500395307}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 607098638}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4965ceb12041d4518a18e3481b7fafef, type: 3}
@@ -499,6 +523,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
   m_PrefabInstance: {fileID: 614880442908952735}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &607098638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6259046520675510823, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+  m_PrefabInstance: {fileID: 500395307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &639237690
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee726bf229b4d6d6882be425da1873f5, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -2647,6 +2680,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6259046520675510809, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
   m_PrefabInstance: {fileID: 500395307}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2044536566
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607098638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7e36e441bc173da4ba1dad8ac5f8f12, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2087643449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,6 +3095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 98529313a702a939f90189ff1e54b57d, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -3204,6 +3261,22 @@ PrefabInstance:
       value: 'no vehicle
 
         diagnosed'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.7216981
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.92470217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4290314220
       objectReference: {fileID: 0}
     - target: {fileID: 1129016122575930270, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
       propertyPath: m_Name

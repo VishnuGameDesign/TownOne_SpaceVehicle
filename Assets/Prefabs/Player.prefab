@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 9040f710f159245ca961f0afc275ef37, type: 3}
+  m_Sprite: {fileID: 787523249, guid: 2f45021cf96a616c7a09de1ee9f54320, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.71, y: 2.06}
+    oldSize: {x: 0.6796875, y: 0.8671875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -182,6 +182,7 @@ MonoBehaviour:
   <Rigidbody>k__BackingField: {fileID: 6259046520675510813}
   <BoxCollider>k__BackingField: {fileID: 6259046520675510810}
   <PlayerInput>k__BackingField: {fileID: 6259046520675510811}
+  <Animator>k__BackingField: {fileID: 0}
   <AudioSource>k__BackingField: {fileID: 1267215037323847108}
   _moveSpeed: 300
   _dashSpeed: 20
