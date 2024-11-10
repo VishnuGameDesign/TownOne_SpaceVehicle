@@ -13,11 +13,16 @@ public class Player : MonoBehaviour
     [field: SerializeField] private BoxCollider2D BoxCollider { get; set; }
     [field: SerializeField] private PlayerInput PlayerInput { get; set; }
 
+    [field: SerializeField] private AudioSource AudioSource { get; set; }
+
     [SerializeField] private float _moveSpeed = 5f;
     [SerializeField] private float _dashSpeed = 2f;
     [SerializeField] private float _dashCoolDown = 3f;
     [SerializeField] private float _interactableObjectRadius = 10f;
     
+    public AudioClip mainTheme;
+    public AudioClip pauseTheme;
+
     public UnityEvent OnPaused;
     
     private Vector2 _moveDirection;
@@ -29,6 +34,16 @@ public class Player : MonoBehaviour
         if(Rigidbody == null) Rigidbody = GetComponent<Rigidbody2D>();
         if(BoxCollider == null) Rigidbody = GetComponent<Rigidbody2D>();
         if(PlayerInput == null) PlayerInput = GetComponent<PlayerInput>();
+        if(AudioSource == null) AudioSource = GetComponent<AudioSource>();
+
+    }
+
+    private void Awake()
+    {
+        if (AudioSource != null && mainTheme != null) {
+            AudioSource.clip = mainTheme;
+            AudioSource.Play();
+        }
     }
 
     private void OnMove(InputValue value)
@@ -84,7 +99,16 @@ public class Player : MonoBehaviour
         if (value.isPressed)
         {
             PauseGame();
+            if (AudioSource != null && pauseTheme != null) {
+                AudioSource.clip = pauseTheme;
+                AudioSource.Play();
+            }
         }
+    }
+
+    private void OnRepair(InputValue value)
+    {
+        //repair vehicle
     }
 
     public void PauseGame()
@@ -96,6 +120,10 @@ public class Player : MonoBehaviour
     public void ResumeGame()
     {
         Time.timeScale = 1f;
+        if (AudioSource != null && mainTheme != null) {
+            AudioSource.clip = mainTheme;
+            AudioSource.Play();
+        }
     }
     
     private GameObject GetNearestObject()
