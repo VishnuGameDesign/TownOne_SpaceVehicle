@@ -14,6 +14,8 @@ public class NPC : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
+    public GameObject contButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,11 @@ public class NPC : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
+        }
+
+        if(dialogueText.text==dialogue[index])
+        {
+            contButton.SetActive(true);
         }
         
     }
@@ -57,6 +64,8 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
+        contButton.SetActive(false);
+        
         if(index<dialogue.Length-1)
         {
             index++;
