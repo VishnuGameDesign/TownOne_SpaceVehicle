@@ -11,10 +11,8 @@ public class NPC : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
-    public GameObject contButton;
     private Coroutine typingCoroutine;
 
-    // Add a reference to the E hover icon
     public GameObject eHoverIcon;
 
     void Update()
@@ -23,18 +21,30 @@ public class NPC : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
-                ZeroText();
+                if (typingCoroutine != null)
+                {
+                    StopCoroutine(typingCoroutine);
+                    typingCoroutine = null;
+                    dialogueText.text = dialogue[index];
+                }
+                else
+                {
+                    NextLine();
+                }
             }
             else
             {
+                // Start the dialogue
                 dialoguePanel.SetActive(true);
+
+                // Hide the E hover icon
+                if (eHoverIcon != null)
+                {
+                    eHoverIcon.SetActive(false);
+                }
+
                 typingCoroutine = StartCoroutine(Typing());
             }
-        }
-
-        if (dialogueText.text == dialogue[index])
-        {
-            contButton.SetActive(true);
         }
     }
 
@@ -48,21 +58,27 @@ public class NPC : MonoBehaviour
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
+
+        if (playerIsClose && eHoverIcon != null)
+        {
+            eHoverIcon.SetActive(true);
+        }
     }
 
     IEnumerator Typing()
     {
+
         foreach (char letter in dialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
+
+        typingCoroutine = null; // Typing is finished
     }
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if (index < dialogue.Length - 1)
         {
             index++;
@@ -81,8 +97,8 @@ public class NPC : MonoBehaviour
         {
             playerIsClose = true;
 
-            // Activate the E hover icon
-            if (eHoverIcon != null)
+            // Show the E hover icon if dialogue is not active
+            if (!dialoguePanel.activeInHierarchy && eHoverIcon != null)
             {
                 eHoverIcon.SetActive(true);
             }
@@ -96,7 +112,6 @@ public class NPC : MonoBehaviour
             playerIsClose = false;
             ZeroText();
 
-            // Deactivate the E hover icon
             if (eHoverIcon != null)
             {
                 eHoverIcon.SetActive(false);
