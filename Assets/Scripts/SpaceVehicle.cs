@@ -5,17 +5,27 @@ using UnityEngine;
 public class SpaceVehicle : MonoBehaviour
 {
     public bool Fixed = false;
-    public int ToolRequired = 1;
+    public float ZotFlashTime = 0.5f;
+    public int ToolRequired = 2;
 
-    void ApplyTool(int i) {
+    public GameObject zot;
+
+    public void ApplyTool(int i) {
         if (!Fixed &&  i == ToolRequired) {
-            Debug.log("Player fixed vehicle");
+            Debug.Log("Player fixed vehicle");
             Fixed = true;
         } else if(Fixed) {
-            Debug.log("Player applied tool to fixed vehicle");
+            Debug.Log("Player applied tool to fixed vehicle");
         } else {
-            Debug.log("Player applied wrong tool to vehicle");
+            Debug.Log("Player applied wrong tool to vehicle");
+            zot.GetComponent<SpriteRenderer>().enabled = true;
+            StartCoroutine(HideZot());
         }
+    }
+
+    IEnumerator HideZot() {
+        yield return new WaitForSeconds(ZotFlashTime);
+        zot.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     void Update()

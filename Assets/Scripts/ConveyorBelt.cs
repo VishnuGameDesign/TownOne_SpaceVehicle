@@ -45,6 +45,8 @@ public class ConveyorBelt : MonoBehaviour
                 if (AllVehicles.Count < NumVehicles) {
                     // add a new vehicle until we have NumVehicles of them
                     GameObject clone = Object.Instantiate(AllVehicles[0], this.transform.position, Quaternion.identity);
+                    clone.GetComponent<SpaceVehicle>().Fixed = false;
+                    clone.GetComponent<SpaceVehicle>().ApplyTool(1); // for example - should fail and flash the zot
                     AllVehicles.Add(clone);
                 } else {
                     // The last one moves back to the start
