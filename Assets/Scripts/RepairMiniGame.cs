@@ -1,7 +1,10 @@
+using System.Collections;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Image = UnityEngine.UI.Image;
 
-public class RepairMiniGame : MonoBehaviour
+public class RepairMiniGame : MonoBehaviour, IInteractable
 {
     [SerializeField] private Transform _rightEndPivotPoint;
     [SerializeField] private Transform _leftEndPivotPoint;
@@ -11,35 +14,70 @@ public class RepairMiniGame : MonoBehaviour
     [SerializeField] private float _smallerBarSpeed = 1.5f;
     [SerializeField] private float _biggerBarSpeed = 2f;
     [SerializeField] private float _toMatchThreshold = .1f;
-    [SerializeField] private PlayerInput _playerInput;
+    [SerializeField] private GameObject _image;
+    
+    private bool _isMoving;
+
+    private void OnValidate()
+    {
+        _image.SetActive(false);
+    }
 
     private void Start()
     {
         _movingTarget.transform.position = _leftEndPivotPoint.position;
         _matchingTarget.transform.position = _rightEndPivotPoint.position;
     }
+    
 
-    private void Update()
+    private IEnumerator MoveTarget()
     {
-        MoveTarget();
-        if (Input.GetKeyDown(KeyCode.R) && TargetsMatched())
+        while (_isMoving)
         {
-            Debug.Log("REPAIR DONE");
+            float distance = Vector2.Distance(_leftEndPivotPoint.position, _rightEndPivotPoint.position);
+            float pingPongForSmallBar = Mathf.PingPong(Time.time * _smallerBarSpeed, distance);    
+            float pingPongForBigBar = Mathf.PingPong(Time.time * _biggerBarSpeed, distance);    
+            
+            _movingTarget.transform.position = Vector3.Lerp(_leftEndPivotPoint.position, _rightEndPivotPoint.position, pingPongForSmallBar / distance);
+            _matchingTarget.transform.position = Vector3.Lerp(_rightEndPivotPoint.position, _leftEndPivotPoint.position, pingPongForBigBar / distance);
+            yield return null;
+        }
+        
+    }
+
+    private void WhenTargetMatched()
+    {
+        float distance = Vector3.Distance(_movingTarget.transform.position, _matchingTarget.transform.position);
+        if (distance <= _toMatchThreshold)
+        {
+            _isMoving = false;
+            Debug.Log("Spawn Weapon");
+            StopCoroutine(MoveTarget());
+            _image.SetActive(true);
+            Invoke(nameof(DisableImage), 2f);
+        }
+        else
+        {
+            Debug.Log("Match failed");
+        }
+        
+    }
+
+    public void Interact(InputValue value)
+    {
+        if (!_isMoving)
+        {
+            _isMoving = true;
+            StartCoroutine(MoveTarget());
+        }
+        else
+        {
+           WhenTargetMatched(); 
         }
     }
 
-    private void MoveTarget()
+    private void DisableImage()
     {
-        float distance = Vector2.Distance(_leftEndPivotPoint.position, _rightEndPivotPoint.position);
-        float pingPongForSmallBar = Mathf.PingPong(Time.time * _smallerBarSpeed, distance);    
-        float pingPongForBigBar = Mathf.PingPong(Time.time * _biggerBarSpeed, distance);    
-        
-        _movingTarget.transform.position = Vector3.Lerp(_leftEndPivotPoint.position, _rightEndPivotPoint.position, pingPongForSmallBar / distance);
-        _matchingTarget.transform.position = Vector3.Lerp(_rightEndPivotPoint.position, _leftEndPivotPoint.position, pingPongForBigBar / distance);
-    }
-    
-    private bool TargetsMatched()
-    {
-        return Vector2.Distance(_leftEndPivotPoint.position, _matchingTarget.transform.position) < _toMatchThreshold;
+        _image.SetActive(false);
     }
 }
