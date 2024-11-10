@@ -17,6 +17,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
+        AnimaleseSpeaker speaker = GetComponent<AnimaleseSpeaker>();
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
@@ -35,6 +36,9 @@ public class NPC : MonoBehaviour
             else
             {
                 // Start the dialogue
+                speaker.SetTextToSpeak(dialogue[index]);
+                speaker.SetPlaybackTimeBetweenLetters(wordSpeed);
+                speaker.StartPlayback();
                 dialoguePanel.SetActive(true);
 
                 // Hide the E hover icon
@@ -45,6 +49,12 @@ public class NPC : MonoBehaviour
 
                 typingCoroutine = StartCoroutine(Typing());
             }
+        }
+
+        if (dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
+            speaker.StopPlayback();
         }
     }
 
@@ -117,5 +127,7 @@ public class NPC : MonoBehaviour
                 eHoverIcon.SetActive(false);
             }
         }
+        AnimaleseSpeaker speaker = GetComponent<AnimaleseSpeaker>();
+        speaker.StopPlayback();
     }
 }
