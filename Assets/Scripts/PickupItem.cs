@@ -1,3 +1,4 @@
+using System.Net.NetworkInformation;
 using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -29,4 +30,8 @@ public class PickupItem : MonoBehaviour, IInteractable
         transform.SetParent(null);
         _pickedUpItem = false;
     }
+    
+    
+    
+    
 }

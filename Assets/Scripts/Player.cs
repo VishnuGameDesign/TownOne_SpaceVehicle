@@ -87,6 +87,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnRepair(InputValue value)
+    {
+        //repair vehicle
+    }
+
     public void PauseGame()
     {
         OnPaused?.Invoke();
