@@ -36,6 +36,10 @@ public class Player : MonoBehaviour
         if(PlayerInput == null) PlayerInput = GetComponent<PlayerInput>();
         if(AudioSource == null) AudioSource = GetComponent<AudioSource>();
 
+    }
+
+    private void Awake()
+    {
         if (AudioSource != null && mainTheme != null) {
             AudioSource.clip = mainTheme;
             AudioSource.Play();
