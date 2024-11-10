@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float _dashCoolDown = 3f;
     [SerializeField] private float _interactableObjectRadius = 10f;
     
+    [SerializeField] private SpaceVehicle _spaceVehicle;
+    
+    [SerializeField] private ToolInfo _currentTool;
+    
     public AudioClip mainTheme;
     public AudioClip pauseTheme;
 
@@ -28,6 +32,7 @@ public class Player : MonoBehaviour
     private Vector2 _moveDirection;
     private bool _isDashing;
     private IInteractable _interactableObject;
+    
     
     private void OnValidate()
     {
@@ -53,7 +58,7 @@ public class Player : MonoBehaviour
 
         if (_moveDirection.x != 0)
         {
-            transform.localScale = new Vector2(Mathf.Sign(_moveDirection.x), 1f);
+            transform.localScale = new Vector2(Mathf.Sign(-_moveDirection.x), 1f);
         }
     }
 
@@ -92,6 +97,7 @@ public class Player : MonoBehaviour
         var nearestGameObject = GetNearestObject();
         var interactable = nearestGameObject?.GetComponent<IInteractable>();
         interactable?.Interact(value);
+        
     }
 
     private void OnPause(InputValue value)
@@ -109,6 +115,7 @@ public class Player : MonoBehaviour
     private void OnRepair(InputValue value)
     {
         //repair vehicle
+        _spaceVehicle.ApplyTool(_currentTool.toolId);
     }
 
     public void PauseGame()
