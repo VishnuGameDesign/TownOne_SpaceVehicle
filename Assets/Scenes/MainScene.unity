@@ -643,9 +643,9 @@ GameObject:
   - component: {fileID: 812547312}
   - component: {fileID: 812547315}
   - component: {fileID: 812547314}
-  - component: {fileID: 812547313}
+  - component: {fileID: 812547316}
   m_Layer: 0
-  m_Name: Vehicle
+  m_Name: SpaceVehicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,21 +666,6 @@ Transform:
   m_Father: {fileID: 639237691}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!111 &812547313
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812547311}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 470a8384bcbdd974eabb7b8c5ecbcbac, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 1
-  m_CullingType: 0
 --- !u!60 &812547314
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -762,6 +747,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &812547316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812547311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8a78e2e09b2efa38247392d5f44796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fixed: 0
 --- !u!1 &849250193
 GameObject:
   m_ObjectHideFlags: 0
