@@ -104,8 +104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: example text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 76b8f2b967096b8999828139163498a0, type: 2}
-  m_sharedMaterial: {fileID: -2187717683935564365, guid: 76b8f2b967096b8999828139163498a0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
+  m_sharedMaterial: {fileID: 9157289752458542558, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -203,3 +203,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 
+  text_onset_speed: 4
+  text_rise_distance: 0.1
