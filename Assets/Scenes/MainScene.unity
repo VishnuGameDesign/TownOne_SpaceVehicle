@@ -416,6 +416,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1267215037323847108, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: OnPaused.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1571,6 +1575,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &1407807210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2071,6 +2077,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &1746746000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2456,6 +2464,8 @@ MonoBehaviour:
   _player: {fileID: 500395309}
   _pickUpPoint: {fileID: 500395310}
   toolId: 0
+  default_sprite: {fileID: 0}
+  hovered_sprite: {fileID: 0}
 --- !u!61 &2115439586
 BoxCollider2D:
   m_ObjectHideFlags: 0
