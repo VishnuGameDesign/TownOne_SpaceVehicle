@@ -1,9 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
@@ -15,62 +12,62 @@ public class NPC : MonoBehaviour
     public bool playerIsClose;
 
     public GameObject contButton;
+    private Coroutine typingCoroutine;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Add a reference to the E hover icon
+    public GameObject eHoverIcon;
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if(dialoguePanel.activeInHierarchy)
+            if (dialoguePanel.activeInHierarchy)
             {
                 ZeroText();
             }
             else
             {
                 dialoguePanel.SetActive(true);
-                StartCoroutine(Typing());
+                typingCoroutine = StartCoroutine(Typing());
             }
         }
 
-        if(dialogueText.text==dialogue[index])
+        if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
         }
-        
     }
 
     public void ZeroText()
     {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
         dialogueText.text = "";
-        index =0;
+        index = 0;
         dialoguePanel.SetActive(false);
     }
 
     IEnumerator Typing()
     {
-        foreach(char letter in dialogue[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
-
     }
 
     public void NextLine()
     {
         contButton.SetActive(false);
-        
-        if(index<dialogue.Length-1)
+
+        if (index < dialogue.Length - 1)
         {
             index++;
-            dialogueText.text="";
-            StartCoroutine(Typing());
+            dialogueText.text = "";
+            typingCoroutine = StartCoroutine(Typing());
         }
         else
         {
@@ -78,14 +75,32 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        playerIsClose = true;
-    }
-    private void OnTriggerExit2D(Collider2D other) 
-    {
-        playerIsClose = false;
-        ZeroText();
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = true;
+
+            // Activate the E hover icon
+            if (eHoverIcon != null)
+            {
+                eHoverIcon.SetActive(true);
+            }
+        }
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = false;
+            ZeroText();
+
+            // Deactivate the E hover icon
+            if (eHoverIcon != null)
+            {
+                eHoverIcon.SetActive(false);
+            }
+        }
+    }
 }
