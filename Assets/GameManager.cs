@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,8 @@ public class GameManager : MonoBehaviour
     public int vehiclesRepaired = 0;
     public int credits = 0;
 
-    public Text timerText; 
-    public Text scoreText; 
+    public TextMeshProUGUI timerText; 
+    public TextMeshProUGUI scoreText; 
 
     void Awake()
     {
@@ -22,7 +23,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // Update the game timer
         gameTime += Time.deltaTime;
         UpdateTimerUI();
     }
@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
 
     void UpdateTimerUI()
     {
-        // Format time as minutes:seconds
         int minutes = Mathf.FloorToInt(gameTime / 60F);
         int seconds = Mathf.FloorToInt(gameTime % 60);
         timerText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
