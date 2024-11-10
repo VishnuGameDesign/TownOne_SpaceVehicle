@@ -181,7 +181,7 @@ MonoBehaviour:
   <Rigidbody>k__BackingField: {fileID: 6259046520675510813}
   <BoxCollider>k__BackingField: {fileID: 6259046520675510810}
   <PlayerInput>k__BackingField: {fileID: 6259046520675510811}
-  _moveSpeed: 400
+  _moveSpeed: 200
   _dashSpeed: 20
   _dashCoolDown: 0.1
   _interactableObjectRadius: 1
