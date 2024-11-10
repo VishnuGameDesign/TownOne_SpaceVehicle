@@ -2778,6 +2778,64 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_text
+      value: 'no vehicle
+
+        diagnosed!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.b
+      value: 0.6933962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topLeft.r
+      value: 0.88623655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topRight.b
+      value: 0.6933962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.topRight.r
+      value: 0.88623655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.b
+      value: 0.6933962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomLeft.r
+      value: 0.88623655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.b
+      value: 0.6933962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930258, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_fontColorGradient.bottomRight.r
+      value: 0.88623655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129016122575930261, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 9157289752458542558, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
     - target: {fileID: 1129016122575930270, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
       propertyPath: m_Name
       value: Prompt
