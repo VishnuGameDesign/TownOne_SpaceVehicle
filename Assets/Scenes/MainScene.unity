@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &281886029
+--- !u!1001 &97210802
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -132,8 +132,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: m_Name
-      value: NPC (2)
+      value: NPC (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b4287eda0ea0276898fc8d6eb9eda48, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -146,6 +150,112 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: '*bzzt* aRe yOu THe MEchaNic ToDAy? *bzzt*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: ...What did you think of my robot impression? Convincing, isn't it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: I've always wanted to try that out. Thanks for listening!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+--- !u!1001 &281886029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Name
+      value: NPC (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee726bf229b4d6d6882be425da1873f5, type: 3}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: contButton
+      value: 
+      objectReference: {fileID: 279126895619405687}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 230296068718033756}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Hey bud, are you getting your work done okay?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Your customers are wandering all around your garage like they own the
+        place. No manners at all!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: ...Huh? I'm wandering around too? Yeah, but we're buds, right bud?
+      objectReference: {fileID: 0}
     - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -196,6 +306,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
   m_PrefabInstance: {fileID: 281886029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &305610823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+  m_PrefabInstance: {fileID: 563865779}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &314657654
 GameObject:
@@ -474,6 +589,91 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
   m_PrefabInstance: {fileID: 614880442908952735}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &563865779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Name
+      value: NPC (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b4287eda0ea0276898fc8d6eb9eda48, type: 3}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: contButton
+      value: 
+      objectReference: {fileID: 279126895619405687}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 230296068718033756}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Fix my vehicle. Now.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.9900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
 --- !u!1 &639237690
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 98529313a702a939f90189ff1e54b57d, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -548,6 +752,24 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Whoooa, it's true! You have those, uh... "Supposable tums"?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Right, it's "opposable thumbs"! Wow, I bet you can do ANYTHING with
+        those!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: For example, you can reach the Shift key with your thumb to dash and
+        move around faster!
+      objectReference: {fileID: 0}
     - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1144,6 +1366,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955522073}
   m_CullTransparentMesh: 1
+--- !u!1 &961304409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+  m_PrefabInstance: {fileID: 97210802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1129223718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+  m_PrefabInstance: {fileID: 1469555638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1136260938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,6 +2041,141 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1469555638
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1557576012438516390, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Name
+      value: NPC (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b102feb929d9dd9f986fb93fd5110981, type: 3}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: contButton
+      value: 
+      objectReference: {fileID: 279126895619405687}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 230296068718033756}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Got a job for ya. A real mess. But there's a great story behind it,
+        if you wanna hear!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Took the ol' hog for a ride up the next planet over, and there was this
+        BEAUTIFUL supernova in the distance.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: I think planet PX002 got wiped off the galactic map by it, but BOY,
+        what a magnificent way to go, GAHAHA!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: Anyway, that real purdy sight gone done distracted me, and next thing
+        I know...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: There's a space deer staring down me headlights! Dumbfounded, it was!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: And so was I! Been a good couple decades since I done seen a space deer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: Think the last time was when that black hole came and sucked up PX014?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: That was quite the catastrophic event, let me tell ya!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: Countless civilizations got sucked in and sent to Space God knows where!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: Glad we managed to get away from it in time, eh?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: The Space gov'ment came through for us and put the black hole to rest!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: Or at least I think they did? There were speeches about that, if I do
+        remember!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: Ah well, I'm sure it'll be fine! Be wary of space deer on your drive
+        home, y'hear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.5500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
 --- !u!1 &1484976605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2625,9 @@ MonoBehaviour:
   - {fileID: 523357965}
   - {fileID: 666709066}
   - {fileID: 281886030}
+  - {fileID: 961304409}
+  - {fileID: 1129223718}
+  - {fileID: 305610823}
   current_npc_index: 0
   number_visible: 0
   npc_positions:
@@ -2621,6 +2991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 5022811242565223574, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 98529313a702a939f90189ff1e54b57d, type: 3}
     - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: contButton
       value: 
@@ -2633,6 +3007,25 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 2985769962027024025}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Sorry I'm back already! My spacemobile got all beaten up in a real doozy
+        of an asteroid storm!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Think you can fix it? You'll need to check the vehicle while it's on
+        the belt.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508921340404883867, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: Once you know what the problem is, just bring the right tool over to
+        fix it!
+      objectReference: {fileID: 0}
     - target: {fileID: 7944972454493935128, guid: cae9b344a412f6b49828f43370ae4459, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -2856,7 +3249,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4320003779404692656, guid: a7a51005a45efb74fa01fb568377249e, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4320003779404692656, guid: a7a51005a45efb74fa01fb568377249e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2933,7 +3326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5222606479697126099, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5222606479697126099, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3026,7 +3419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5995870557233313024, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 5995870557233313024, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
       propertyPath: m_AnchorMax.x
