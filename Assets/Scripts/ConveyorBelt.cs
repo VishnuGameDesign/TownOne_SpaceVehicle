@@ -67,7 +67,7 @@ public class ConveyorBelt : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void Update()
     {
         for(int i = 0; i < AllVehicles.Count; i++)
         {
