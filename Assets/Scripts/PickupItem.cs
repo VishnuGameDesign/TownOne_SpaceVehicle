@@ -12,7 +12,7 @@ public class PickupItem : MonoBehaviour, IInteractable
     public Sprite hovered_sprite;
     private bool _pickedUpItem;
     
-    public void Interact(InputValue value)
+    public void CheckForToolMatch(InputValue value)
     {
         if(_player== null) return;
     

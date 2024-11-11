@@ -93,7 +93,7 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
         
     }
 
-    public void Interact(InputValue value)
+    public void CheckForToolMatch(InputValue value)
     {
         if (!_isMoving)
         {

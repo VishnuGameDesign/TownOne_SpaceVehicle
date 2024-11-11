@@ -3,11 +3,11 @@ using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class SpaceVehicle : MonoBehaviour, IInteractable
+public class SpaceVehicle : MonoBehaviour
 {
     public bool Fixed = false;
     public float ZotFlashTime = 0.5f;
-    public int ToolRequired = 2;
+    public int ToolRequired;
     public int VehicleGFX = 1;
 
     public Sprite[] gfx;
@@ -17,6 +17,7 @@ public class SpaceVehicle : MonoBehaviour, IInteractable
     
     public void ApplyTool(int i)
     {
+        ToolRequired = i;
         Debug.Log(i);
         if (!Fixed && i == ToolRequired)
         {
@@ -36,7 +37,7 @@ public class SpaceVehicle : MonoBehaviour, IInteractable
         }
     }
 
-    public void Interact(InputValue value)
+    public void CheckForToolMatch()
     {
         if (_player.GetComponent<Player>().heldTool != -1) {
             ApplyTool(_player.GetComponent<Player>().heldTool);

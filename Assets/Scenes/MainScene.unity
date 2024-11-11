@@ -683,7 +683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 639237691}
   - component: {fileID: 639237692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Vehicles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
