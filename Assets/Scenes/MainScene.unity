@@ -494,7 +494,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1267215037323847108, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: m_Volume
-      value: 0.1
+      value: 0.664
       objectReference: {fileID: 0}
     - target: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
       propertyPath: OnPaused.m_PersistentCalls.m_Calls.Array.data[0].m_Target
