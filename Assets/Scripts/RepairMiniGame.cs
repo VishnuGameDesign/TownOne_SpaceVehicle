@@ -79,7 +79,7 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
             if(firstBrokenIdx == -1) {
                 GameObject.Find("ToolboxPrompt").GetComponent<Prompt>().text = "no vehicle diagnosed!";
             } else {
-                allVehicles[firstBrokenIdx].GetComponent<SpaceVehicle>().ApplyTool(randomToolIndex);
+                allVehicles[firstBrokenIdx].GetComponent<SpaceVehicle>().ToolRequired = randomToolIndex;
                 GameObject.Find("ToolboxPrompt").GetComponent<Prompt>().text = "bring tool to vehicle!";
                 Debug.Log("Applying tool " + randomToolIndex);
             }

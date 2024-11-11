@@ -27,12 +27,16 @@ public class PickupItem : MonoBehaviour, IInteractable
         transform.position = _pickUpPoint.position;
         _pickedUpItem = true;
         Debug.Log($"{_pickedUpItem}, {toolId}");
+
+        _player.GetComponent<Player>().heldTool = toolId;
     }
 
     private void DropItem()
     {
         transform.SetParent(null);
         _pickedUpItem = false;
+
+        _player.GetComponent<Player>().heldTool = -1;
     }
     
     

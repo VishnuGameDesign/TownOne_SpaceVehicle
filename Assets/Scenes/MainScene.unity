@@ -555,7 +555,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6259046520675510808, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
   m_PrefabInstance: {fileID: 500395307}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1379053410}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4965ceb12041d4518a18e3481b7fafef, type: 3}
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 812547315}
   - component: {fileID: 812547314}
   - component: {fileID: 812547316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceVehicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,6 +1028,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e06ae1bfe76a53c42bf6c971180e9346, type: 3}
   - {fileID: 21300000, guid: ce013794e80135c40826f66bf0730d75, type: 3}
   _repairedVehicle: {fileID: 1484976605}
+  _player: {fileID: 1379053410}
 --- !u!1 &849250193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1690,6 +1691,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
+--- !u!1 &1379053410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6259046520675510823, guid: ea7a7c035d04046c3b115a66d606947e, type: 3}
+  m_PrefabInstance: {fileID: 500395307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1405871789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,7 +2189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484976606}
   - component: {fileID: 1484976607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Zot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2375,7 @@ RectTransform:
   - {fileID: 358496070}
   - {fileID: 1405871790}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3335,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 9157289752458542558, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
     - target: {fileID: 1129016122575930270, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}
       propertyPath: m_Name
-      value: Prompt
+      value: ToolboxPrompt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70b81459f188f32e8b4fbbba72cd2fc1, type: 3}

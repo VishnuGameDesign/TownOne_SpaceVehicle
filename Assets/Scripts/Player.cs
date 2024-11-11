@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
     private bool _isDashing;
     private IInteractable _interactableObject;
 
+    public int heldTool;
+
 
     private void OnValidate()
     {
