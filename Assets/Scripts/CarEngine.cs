@@ -19,7 +19,7 @@ namespace DefaultNamespace
             _carEngineCanvas.SetActive(false);
         }
 
-        public void Interact(InputValue value)
+        public void CheckForToolMatch(InputValue value)
         {
             _displayCanvas = !_displayCanvas;
             if(_displayCanvas) _carEngineCanvas.SetActive(true);

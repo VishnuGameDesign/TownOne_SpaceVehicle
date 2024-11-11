@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
     private bool _isDashing;
     private IInteractable _interactableObject;
 
+    public int heldTool;
+
 
     private void OnValidate()
     {
@@ -99,7 +101,7 @@ public class Player : MonoBehaviour
     {
         var nearestGameObject = GetNearestInteractableObject();
         var interactable = nearestGameObject?.GetComponent<IInteractable>();
-        interactable?.Interact(value);
+        interactable?.CheckForToolMatch(value);
         
     }
 
@@ -128,7 +130,7 @@ public class Player : MonoBehaviour
                 PickupItem pickupItem = nearestInteractableObject?.GetComponent<PickupItem>();
                 if (spaceVehicle && pickupItem!= null && !spaceVehicle.Fixed)
                 {
-                    spaceVehicle.ApplyTool(pickupItem.toolId); 
+                    spaceVehicle.CheckForToolMatch(); 
                     Debug.Log(pickupItem.toolId);
                 }
             }

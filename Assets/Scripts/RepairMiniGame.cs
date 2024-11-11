@@ -16,6 +16,8 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
     [SerializeField] private float _toMatchThreshold = .1f;
     [SerializeField] private List<GameObject> _toolImages;
     public Dictionary<int, GameObject> _toolImageIds = new Dictionary<int, GameObject>();
+
+    private GameObject Vehicles;
     
     private bool _isMoving;
 
@@ -33,7 +35,8 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
     {
         _movingTarget.transform.position = _leftEndPivotPoint.position;
         _matchingTarget.transform.position = _rightEndPivotPoint.position;
-        
+
+        Vehicles = GameObject.Find("Vehicles");
     }
     
 
@@ -64,9 +67,22 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
             int randomToolIndex = Random.Range(0, _toolImages.Count);
             _toolImages[randomToolIndex].SetActive(true);
             
-            var spaceVehicle = FindObjectOfType<SpaceVehicle>();
-            spaceVehicle?.ApplyTool(randomToolIndex);
-            Debug.Log(randomToolIndex);
+            var allVehicles = Vehicles.GetComponent<ConveyorBelt>().AllVehicles;
+            var firstBrokenIdx = -1;
+            for (int i = 0; i < allVehicles.Count; i++) {
+                if (!allVehicles[i].GetComponent<SpaceVehicle>().Fixed) {
+                    firstBrokenIdx = i;
+                    break;
+                }
+            }
+            Debug.Log("first broken idx is " + firstBrokenIdx);
+            if(firstBrokenIdx == -1) {
+                GameObject.Find("ToolboxPrompt").GetComponent<Prompt>().text = "no vehicle diagnosed!";
+            } else {
+                allVehicles[firstBrokenIdx].GetComponent<SpaceVehicle>().ToolRequired = randomToolIndex;
+                GameObject.Find("ToolboxPrompt").GetComponent<Prompt>().text = "bring tool to vehicle!";
+                Debug.Log("Applying tool " + randomToolIndex);
+            }
                 
             Invoke(nameof(DisableImage), 2f);
         }
@@ -77,7 +93,7 @@ public class RepairMiniGame : MonoBehaviour, IInteractable
         
     }
 
-    public void Interact(InputValue value)
+    public void CheckForToolMatch(InputValue value)
     {
         if (!_isMoving)
         {

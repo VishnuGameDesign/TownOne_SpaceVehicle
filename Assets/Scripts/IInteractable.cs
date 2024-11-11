@@ -4,6 +4,6 @@ namespace DefaultNamespace
 {
     public interface IInteractable
     {
-        void Interact(InputValue value);
+        void CheckForToolMatch(InputValue value);
     }
 }
