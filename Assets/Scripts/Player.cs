@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         _isDashing = false;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (_isDashing) return;
         Animator.SetBool ("IsWalking", _moveDirection.x != 0 || _moveDirection.y != 0);
