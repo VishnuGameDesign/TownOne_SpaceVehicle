@@ -11,8 +11,8 @@ public class SpaceVehicle : MonoBehaviour, IInteractable
     public int VehicleGFX = 1;
 
     public Sprite[] gfx;
+    public Sprite[] fixedGfx;
 
-    public GameObject _repairedVehicle;
     public GameObject _player;
     
     public void ApplyTool(int i)
@@ -32,7 +32,6 @@ public class SpaceVehicle : MonoBehaviour, IInteractable
         else
         {
             Debug.Log("Player applied wrong tool to vehicle");
-            _repairedVehicle.GetComponent<SpriteRenderer>().enabled = true;
             StartCoroutine(HideZot());
         }
     }
@@ -46,15 +45,14 @@ public class SpaceVehicle : MonoBehaviour, IInteractable
     
     IEnumerator HideZot() {
         yield return new WaitForSeconds(ZotFlashTime);
-        _repairedVehicle.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     void Update()
     {
-        GetComponent<SpriteRenderer>().sprite = gfx[VehicleGFX];
         if(Fixed) {
-            GetComponent<SpriteRenderer>().enabled = false;
-            _repairedVehicle.SetActive(true);
+            GetComponent<SpriteRenderer>().sprite = fixedGfx[VehicleGFX];
+        } else {
+            GetComponent<SpriteRenderer>().sprite = gfx[VehicleGFX];
         }
     }
 }
