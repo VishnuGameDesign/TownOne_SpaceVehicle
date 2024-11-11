@@ -21,11 +21,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float _interactableObjectRadius = 10f;
 
     
-    [SerializeField] private SpaceVehicle _spaceVehicle;
-    
-    [SerializeField] private ToolInfo _currentTool;
-
     [SerializeField] private TrailRenderer tr;
+    [SerializeField] private float _repairRadius;
     
     public AudioClip mainTheme;
     public AudioClip pauseTheme;
@@ -35,10 +32,8 @@ public class Player : MonoBehaviour
     private Vector2 _moveDirection;
     private bool _isDashing;
     private IInteractable _interactableObject;
-    
-    
-    
-    
+
+
     private void OnValidate()
     {
         if(Rigidbody == null) Rigidbody = GetComponent<Rigidbody2D>();
@@ -129,8 +124,8 @@ public class Player : MonoBehaviour
             if (nearestRepairObject != null && value.isPressed)
             {
                 Debug.Log("repairing");
-                SpaceVehicle spaceVehicle = nearestRepairObject.GetComponent<SpaceVehicle>();
-                PickupItem pickupItem = nearestInteractableObject.GetComponent<PickupItem>();
+                SpaceVehicle spaceVehicle = nearestRepairObject?.GetComponent<SpaceVehicle>();
+                PickupItem pickupItem = nearestInteractableObject?.GetComponent<PickupItem>();
                 if (spaceVehicle && pickupItem!= null && !spaceVehicle.Fixed)
                 {
                     spaceVehicle.ApplyTool(pickupItem.toolId); 
@@ -162,7 +157,7 @@ public class Player : MonoBehaviour
     
     private GameObject GetNearestRepairObject()
     {
-        var nearestRepairable = Physics2D.OverlapCircle(transform.position, _interactableObjectRadius, LayerMask.GetMask("Repairable"));
+        var nearestRepairable = Physics2D.OverlapCircle(transform.position, _repairRadius, LayerMask.GetMask("Repairable"));
         return nearestRepairable == null ? null : nearestRepairable.gameObject;
     }
     
