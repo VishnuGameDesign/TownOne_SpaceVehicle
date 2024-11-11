@@ -16,7 +16,7 @@ public class GameOverManager : MonoBehaviour
     public void RestartGame()
     {
         GameManager.Instance.ResetGame();
-        SceneManager.LoadScene("MainScene"); 
+        SceneManager.LoadScene("Title"); 
     }
 
     public void ExitGame()
