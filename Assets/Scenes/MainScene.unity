@@ -1388,11 +1388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1400,19 +1400,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9678986
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.25134113
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1424,7 +1424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847965, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 29.114
       objectReference: {fileID: 0}
     - target: {fileID: 3979045843368847966, guid: fe8263b46d6584996b281d9ab8408228, type: 3}
       propertyPath: _toolImages.Array.data[0]
