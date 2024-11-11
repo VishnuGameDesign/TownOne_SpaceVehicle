@@ -10,7 +10,7 @@ public class SpaceVehicle : MonoBehaviour
 
     public GameObject _repairedVehicle;
     
-   public void ApplyTool(int i)
+ public void ApplyTool(int i)
 {
     Debug.Log(i);
     if (!Fixed && i == ToolRequired)
@@ -31,6 +31,7 @@ public class SpaceVehicle : MonoBehaviour
         StartCoroutine(HideZot());
     }
 }
+
     
     IEnumerator HideZot() {
         yield return new WaitForSeconds(ZotFlashTime);

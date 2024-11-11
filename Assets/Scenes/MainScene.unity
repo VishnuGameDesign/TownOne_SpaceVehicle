@@ -2011,6 +2011,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1498030312 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4320003779404692656, guid: a7a51005a45efb74fa01fb568377249e, type: 3}
+  m_PrefabInstance: {fileID: 4320003780312939682}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1537508961 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5995870557662111611, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
@@ -2966,6 +2971,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 4320003779404692659, guid: a7a51005a45efb74fa01fb568377249e, type: 3}
+      propertyPath: gameTime
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320003779404692659, guid: a7a51005a45efb74fa01fb568377249e, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1921358290}
@@ -2980,7 +2989,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1498030312}
     m_Modifications:
     - target: {fileID: 5222606479697126063, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_Name
@@ -2996,7 +3005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5222606479697126099, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5222606479697126099, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3077,7 +3086,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1498030312}
     m_Modifications:
     - target: {fileID: 5995870557233313024, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
       propertyPath: m_Pivot.x
@@ -3089,7 +3098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5995870557233313024, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5995870557233313024, guid: 0284f0c1460a3f145b877dd81fdc72cf, type: 3}
       propertyPath: m_AnchorMax.x
