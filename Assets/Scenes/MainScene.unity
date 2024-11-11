@@ -718,8 +718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b469dc76a04885e8524eb1c1820d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BeltTiming: 4
-  BeltSpeedScale: 0.05
+  BeltTiming: 3
+  BeltSpeedScale: 0.01
   BeltDirection: {x: 1, y: 0.6}
   NumVehicles: 5
   AllVehicles:
@@ -3617,6 +3617,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498030312}
     m_Modifications:
+    - target: {fileID: 5222606478953951552, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222606478953951552, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
+    - target: {fileID: 5222606478953951552, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 9157289752458542558, guid: 9a27559660804487c9f29190e6c284c1, type: 2}
+    - target: {fileID: 5222606478953951555, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 387.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222606479697126061, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222606479697126061, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222606479697126061, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5222606479697126063, guid: 1bff1d6e96bc1784586415a21ea640ba, type: 3}
       propertyPath: m_Name
       value: Score

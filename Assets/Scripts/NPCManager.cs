@@ -18,9 +18,10 @@ public class NPCManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.developerConsoleVisible = true;
         for(int i = 0; i < npcs.Length; i++)
         {
-            print("Found: " + npcs[i].name);
+            Debug.Log("Found: " + npcs[i].name);
             if (i < number_visible_max)
             {
                 npc_positions[i] = npcs[i].transform.position;
@@ -29,7 +30,7 @@ public class NPCManager : MonoBehaviour
             {
                 npcs[i].GetComponent<NPCMovement>().my_manager = this;
             }
-            npcs[i].SetActive(false);
+            //npcs[i].SetActive(false);
         }
         current_npc_index = 0;
         current_npc_position_index = 0;
@@ -41,6 +42,7 @@ public class NPCManager : MonoBehaviour
     {
         if (spawn_timer <= 0)
         {
+            Debug.Log("Spawn Time is 0");
             GameObject current_npc = npcs[current_npc_index];
             if (current_npc.GetComponent<NPCMovement>())
             {
